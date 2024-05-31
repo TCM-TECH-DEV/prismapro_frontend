@@ -20,12 +20,14 @@ Route::get('/login', function () {
 
 Route::get('index/{locale}', [App\Http\Controllers\HomeController::class, 'lang']);
 
+Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('index');
+Route::get('{any}', [TonerController::class, 'index']);
+
 Auth::routes();
 
 Route::middleware(['auth'])->group(function () {
-    Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('index');
+    // Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('index');
     Route::get('logout', [TonerController::class, 'logout']);
-
-    Route::get('{any}', [TonerController::class, 'index']);
+    // Route::get('{any}', [TonerController::class, 'index']);
 });
 

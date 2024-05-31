@@ -51,10 +51,10 @@
                         <!--end col-->
                         <div class="col-md-10">
                             <div class="bg-light rounded-2 position-relative ribbon-box overflow-hidden">
-                                <div class="ribbon ribbon-danger ribbon-shape trending-ribbon">
+                                {{-- <div class="ribbon ribbon-danger ribbon-shape trending-ribbon">
                                     <span class="trending-ribbon-text">Trending</span> <i
                                         class="ri-flashlight-fill text-white align-bottom float-end ms-1"></i>
-                                </div>
+                                </div> --}}
                                 <div class="swiper productSwiper2">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide ">
@@ -84,7 +84,7 @@
                             </div>
                         </div>
                         <!--end col-->
-                        <div class="col-lg-12">
+                        {{-- <div class="col-lg-12">
                             <div class="mt-3">
                                 <div class="hstack gap-2">
                                     <button type="button" class="btn btn-success btn-hover w-100">
@@ -98,7 +98,7 @@
                                         <span class="icon-off"><i class="ri-heart-fill"></i></span> </button>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                         <!--end col-->
                     </div>
                     <!--end row-->
@@ -141,7 +141,7 @@
                                 <li class=""><i class="bi bi-check2-circle me-2 align-middle text-success"></i>Free
                                     delivery available</li>
                             </ul>
-                            <h6 class="fs-14 text-muted mb-3">Available offers :</h6>
+                            {{-- <h6 class="fs-14 text-muted mb-3">Available offers :</h6>
                             <ul class="list-unstyled vstack gap-2 mb-0">
                                 <li>
                                     <div class="d-flex gap-3">
@@ -155,7 +155,7 @@
                                         </div>
                                     </div>
                                 </li>
-                                {{-- <li>
+                                <li>
                                     <div class="d-flex gap-3">
                                         <div class="flex-shrink-0">
                                             <i class="bi bi-tag-fill text-success align-middle fs-15"></i>
@@ -166,10 +166,10 @@
                                                 data-bs-title="Terms & Conditions">T&C</a>
                                         </div>
                                     </div>
-                                </li> --}}
-                            </ul>
+                                </li>
+                            </ul> --}}
                         </div>
-                        <div class="d-flex align-items-center mb-4">
+                        {{-- <div class="d-flex align-items-center mb-4">
                             <h5 class="fs-15 mb-0">Quantity:</h5>
                             <div class="input-step ms-2">
                                 <button type="button" class="minus">–</button>
@@ -177,7 +177,7 @@
                                     max="100" readonly="">
                                 <button type="button" class="plus">+</button>
                             </div>
-                        </div>
+                        </div> --}}
                         {{-- <div class="row gy-3">
                             <div class="col-md-6">
                                 <div>
@@ -241,11 +241,11 @@
                                 Description
                             </a>
                         </li>
-                        <li class="nav-item">
+                        {{-- <li class="nav-item">
                             <a class="nav-link" data-bs-toggle="tab" href="#profile1" role="tab">
                                 Ratings & Reviews
                             </a>
-                        </li>
+                        </li> --}}
                     </ul>
 
                     <!-- Tab panes -->
@@ -673,7 +673,7 @@
                                 are on the inside and how you present yourself to the outside world. It's having
                                 appreciation and cultivating gratitude.</p> --}}
                         </div>
-                        <div class="tab-pane" id="profile1" role="tabpanel">
+                        {{-- <div class="tab-pane" id="profile1" role="tabpanel">
 
                             <div>
                                 <div class="d-flex flex-wrap gap-4 justify-content-between align-items-center mt-4">
@@ -1016,7 +1016,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <!--end col-->

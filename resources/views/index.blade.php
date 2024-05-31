@@ -21,7 +21,8 @@
                                         <p class="fs-15 fw-semibold text-uppercase"><i
                                                 class="ri-flashlight-fill text-info align-bottom me-1"></i> Save up to <span
                                                 class="text-danger">50%</span> off</p>
-                                        <h1 class="display-4 fw-semibold text-capitalize lh-base mb-4">iPhone 13 Pro Max</h1>
+                                        <h1 class="display-4 fw-semibold text-capitalize lh-base mb-4">iPhone 13 Pro Max
+                                        </h1>
                                         {{-- <p class="fs-18 mb-4"><b>40% off</b> up to on all selected products</p> --}}
                                         <button class="btn btn-primary btn-hover mt-4"><i
                                                 class="ph-shopping-cart align-middle me-1"></i> Shop Now</button>
@@ -85,25 +86,25 @@
     <!-- START PRODUCT -->
     <section class="section py-0">
         <div class="container">
-            <div class="row mt-4 justify-content-center">
+            {{-- <div class="row mt-4 justify-content-center">
                 <div class="col">
                     <div class="text-left">
                         <h3 class="mb-3">Best Seller</h3>
                     </div>
                 </div>
-            </div>
+            </div> --}}
 
-            <div class="row">
+            <div class="row mt-4">
                 <div class="col-lg-12">
                     <div class="row gallery-wrapper mt-2">
-
                         <div class="element-item col-xxl-3 col-xl-4 col-sm-6 seller hot arrival"
                             data-category="hot arrival">
                             <div class="card overflow-hidden">
                                 <div class="bg-warning-subtle rounded-top py-4">
                                     <div class="gallery-product">
-                                        <img src="{{ URL::asset('build/images/products/iphne13promax/img-1.png') }}" alt=""
-                                            style="max-height: 215px;max-width: 100%;" class="mx-auto d-block">
+                                        <img src="{{ URL::asset('build/images/products/iphne13promax/img-1.png') }}"
+                                            alt="" style="max-height: 215px;max-width: 100%;"
+                                            class="mx-auto d-block">
                                     </div>
                                     <p class="fs-11 fw-medium badge bg-primary py-2 px-3 product-lable mb-0">Best Arrival
                                     </p>
@@ -138,12 +139,12 @@
                                             <h6 class="fs-15 lh-base text-truncate mb-0">IPhone 13 Pro Max</h6>
                                         </a>
                                         <div class="mt-3">
-                                            <span class="float-end">5.0 <i
-                                                    class="ri-star-fill text-warning align-bottom"></i></span>
+                                            {{-- <span class="float-end">5.0 <i
+                                                    class="ri-star-fill text-warning align-bottom"></i></span> --}}
                                             <h5 class="mb-0">$650.00
                                                 {{-- <span
                                                     class="text-muted fs-12"><del>$425.00</del></span> --}}
-                                                </h5>
+                                            </h5>
                                         </div>
                                     </div>
                                 </div>
@@ -189,8 +190,8 @@
                                             <h6 class="fs-15 lh-base text-truncate mb-0">IPad Pro </h6>
                                         </a>
                                         <div class="mt-3">
-                                            <span class="float-end">4.5 <i
-                                                    class="ri-star-half-fill text-warning align-bottom"></i></span>
+                                            {{-- <span class="float-end">4.5 <i
+                                                    class="ri-star-half-fill text-warning align-bottom"></i></span> --}}
                                             <h5 class="mb-0">$450.00</h5>
                                         </div>
                                     </div>
@@ -203,8 +204,9 @@
                             <div class="card overflow-hidden">
                                 <div class="bg-danger-subtle rounded-top py-4">
                                     <div class="gallery-product">
-                                        <img src="{{ URL::asset('build/images/products/smartwatches/1.png') }}" alt=""
-                                            style="max-height: 215px;max-width: 100%;" class="mx-auto d-block">
+                                        <img src="{{ URL::asset('build/images/products/smartwatches/1.png') }}"
+                                            alt="" style="max-height: 215px;max-width: 100%;"
+                                            class="mx-auto d-block">
                                     </div>
                                     <div class="gallery-product-actions">
                                         <div class="mb-2">
@@ -238,12 +240,12 @@
                                             <h6 class="fs-15 lh-base text-truncate mb-0">Smart Watches</h6>
                                         </a>
                                         <div class="mt-3">
-                                            <span class="float-end">4.5 <i
-                                                    class="ri-star-half-fill text-warning align-bottom"></i></span>
+                                            {{-- <span class="float-end">4.5 <i
+                                                    class="ri-star-half-fill text-warning align-bottom"></i></span> --}}
                                             <h5 class="mb-0">$49.99
                                                 {{-- <span
                                                     class="text-muted fs-12"><del>$399.00</del></span> --}}
-                                                </h5>
+                                            </h5>
                                         </div>
                                     </div>
                                 </div>
@@ -291,8 +293,8 @@
                                             </h6>
                                         </a>
                                         <div class="mt-3">
-                                            <span class="float-end">3.1 <i
-                                                    class="ri-star-half-fill text-warning align-bottom"></i></span>
+                                            {{-- <span class="float-end">3.1 <i
+                                                    class="ri-star-half-fill text-warning align-bottom"></i></span> --}}
                                             <h5 class="mb-0">$159.00</h5>
                                         </div>
                                     </div>
@@ -303,7 +305,7 @@
 
                     </div>
 
-                    <div class="mt-4 text-center">
+                    <div class="mt-4 mb-4 text-center">
                         <a href="product-list-defualt" class="btn btn-soft-primary btn-hover">View All Products <i
                                 class="mdi mdi-arrow-right align-middle ms-1"></i></a>
                     </div>
@@ -313,350 +315,118 @@
     </section>
     <!-- END PRODUCT -->
 
-    {{-- <section class="position-relative bg-danger-subtle bg-cta">
+    <section class="section bg-light bg-opacity-50 py-2">
         <div class="container">
-            <div class="row align-items-center">
+            <div class="row justify-content-center">
                 <div class="col-lg-6">
-                    <div class="py-5">
-                        <p class="text-uppercase  badge bg-danger-subtle text-danger fs-13">Get <b>50%</b> off to your order</p>
-
-                        <h1 class="lh-base fw-semibold mb-3 text-capitalize">Deal off the week</h1>
-                        <p class="fs-16 mt-2">The hands-down winner of denim-friendly sandal styles has to be flat and
-                            simple thong sandals. They can be paired with virtually every style of women's jeans imaginable,
-                            and, as long as you can stand the toe strap, they tend to be really comfortable as well.</p>
-                        <div class="row">
-                            <div class="col-lg-10">
-                                <div class="ecommerce-land-countdown mt-3 mb-0">
-                                    <div data-countdown="Jan 30, 2025" class="countdownlist"></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="mt-4 pt-2 d-flex gap-2">
-                            <a href="#!" class="btn btn-primary w-md btn-hover">Shopping Now</a>
-                            <a href="#!" class="btn btn-danger w-md btn-hover">Subscribe</a>
-                        </div>
+                    <div class="text-left">
+                        <h3 class="mb-3">EXPERIENCE THE TECHNOLOGY</h3>
+                        <p class="text-muted fs-15">PrismaPro has it all</p>
+                        <p class="text-muted fs-15">
+                        <p>LED TV series from PrismaPro is crafted to perfection. We have in-house capabilities of designing
+                            LED TVs from 17″ to 84″ in HD to UHD 4K Smart Versions. Enjoy the magnificence of everything you
+                            watch with PrismaPro’s Full HD and Ultra HD LED TVs, equipped with high-end technology and smart
+                            features.<br>With 50+ years of experience in pioneering electronical technology, we have the
+                            power to move your hearts and minds with great innovations. We have a proven track record of
+                            serving high quality product requirements of our customers at an affordable cost.</p>
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="mt-lg-n5">
-                        <img src="{{ URL::asset('build/images/ecommerce/home/cta.png') }}" alt="" class="mt-lg-n4">
+                    <div class="card overflow-hidden">
+                        <img src="{{ URL::asset('build/images/small/img-4.jpg') }}" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-2">
+                <div class="col-lg-6">
+                    <div class="card overflow-hidden">
+                        <img src="{{ URL::asset('build/images/small/img-5.jpg') }}" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="text-left">
+                        <h3 class="mb-3">ABOUT TREEVIEW COMPANY LIMITED</h3>
+                        <p class="text-muted fs-15">Ever growing with constant innovation</p>
+                        <p class="text-muted fs-15">
+                        <p>Located in Chonburi, the Company is one of Thailand’s leading TV
+                            manufacturer with cutting edge technology, including cleanroom and laser repair
+                            machine.<br>The Company has a large portfolio of clients, becoming Official Assembly Partner
+                            with Haier, Skyworth, Changhong, and Westinghouse and having strong distribution network
+                            with Tesco Lotus and Big C. The Company also has its own brand “PrismaPro,” which has been
+                            featured in the Magazine GM2000.</p>
+                        <p>Serving Since Last 18 Years…</p>
                     </div>
                 </div>
             </div>
         </div>
-    </section> --}}
+    </section>
 
-    {{-- <section class="section pb-0">
+    <!-- START BLOG -->
+    <section class="section bg-light bg-opacity-50 py-2">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-7">
                     <div class="text-center">
-                        <h3 class="mb-3">Latest Arrival</h3>
-                        <p class="text-muted fs-15">What you wear is how you present yourself to the world, especially
-                            today, when human contacts are so quick. Fashion is instant language.</p>
-                    </div>
-                </div>
-                <!--end col-->
-            </div>
-            <!--end row-->
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="swiper latest-slider mt-4" dir="ltr">
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-wrapper pt-5">
-
-                            <div class="swiper-slide">
-                                <div class="card overflow-hidden">
-                                    <div class="bg-dark-subtle rounded-top py-4">
-                                        <div class="gallery-product">
-                                            <img src="{{ URL::asset('build/images/products/img-9.png') }}" alt=""
-                                                style="max-height: 215px;max-width: 100%;" class="mx-auto d-block">
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <div>
-                                            <a href="product-details">
-                                                <h6 class="fs-15 lh-base text-truncate mb-0">Petronas Baseball Cap</h6>
-                                            </a>
-                                            <div class="mt-3">
-                                                <span class="float-end">3.2 <i
-                                                        class="ri-star-half-fill text-warning align-bottom"></i></span>
-                                                <h5 class="mb-0">$125.00 <span
-                                                        class="text-muted fs-12"><del>$200.00</del></span></h5>
-                                            </div>
-                                            <div class="mt-3">
-                                                <a href="shop-cart" class="btn btn-primary btn-sm"><i
-                                                        class="mdi mdi-cart me-1"></i> Add to cart</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <div class="card overflow-hidden">
-                                    <div class="bg-warning-subtle rounded-top py-4">
-                                        <div class="gallery-product">
-                                            <img src="{{ URL::asset('build/images/products/img-10.png') }}" alt=""
-                                                style="max-height: 215px;max-width: 100%;" class="mx-auto d-block">
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <div>
-                                            <a href="product-details">
-                                                <h6 class="fs-15 lh-base text-truncate mb-0">Mens Black T Shirt</h6>
-                                            </a>
-                                            <div class="mt-3">
-                                                <span class="float-end">4.3 <i
-                                                        class="ri-star-half-fill text-warning align-bottom"></i></span>
-                                                <h5 class="mb-0">$150.00 <span
-                                                        class="text-muted fs-12"><del>$300.00</del></span></h5>
-                                            </div>
-                                            <div class="mt-3">
-                                                <a href="shop-cart" class="btn btn-primary btn-sm"><i
-                                                        class="mdi mdi-cart me-1"></i> Add to cart</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <div class="card overflow-hidden">
-                                    <div class="bg-primary-subtle rounded-top py-4">
-                                        <div class="gallery-product">
-                                            <img src="{{ URL::asset('build/images/products/img-11.png') }}" alt=""
-                                                style="max-height: 215px;max-width: 100%;" class="mx-auto d-block">
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <div>
-                                            <a href="product-details">
-                                                <h6 class="fs-15 lh-base text-truncate mb-0">Blue Checked Slim Fit Shirt
-                                                </h6>
-                                            </a>
-                                            <div class="mt-3">
-                                                <span class="float-end">2.3 <i
-                                                        class="ri-star-half-fill text-warning align-bottom"></i></span>
-                                                <h5 class="mb-0">$135.00 <span
-                                                        class="text-muted fs-12"><del>$523.00</del></span></h5>
-                                            </div>
-                                            <div class="mt-3">
-                                                <a href="shop-cart" class="btn btn-primary btn-sm"><i
-                                                        class="mdi mdi-cart me-1"></i> Add to cart</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <div class="card overflow-hidden">
-                                    <div class="bg-danger-subtle rounded-top py-4">
-                                        <div class="gallery-product">
-                                            <img src="{{ URL::asset('build/images/products/img-12.png') }}" alt=""
-                                                style="max-height: 215px;max-width: 100%;" class="mx-auto d-block">
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <div>
-                                            <a href="product-details">
-                                                <h6 class="fs-15 lh-base text-truncate mb-0">Onyx SmartGRID Chair Red</h6>
-                                            </a>
-                                            <div class="mt-3">
-                                                <span class="float-end">3.5 <i
-                                                        class="ri-star-half-fill text-warning align-bottom"></i></span>
-                                                <h5 class="mb-0">$99.00 <span
-                                                        class="text-muted fs-12"><del>$129.00</del></span></h5>
-                                            </div>
-                                            <div class="mt-3">
-                                                <a href="shop-cart" class="btn btn-primary btn-sm"><i
-                                                        class="mdi mdi-cart me-1"></i> Add to cart</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <div class="card overflow-hidden">
-                                    <div class="bg-secondary-subtle rounded-top py-4">
-                                        <div class="gallery-product">
-                                            <img src="{{ URL::asset('build/images/products/img-14.png') }}" alt=""
-                                                style="max-height: 215px;max-width: 100%;" class="mx-auto d-block">
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <div>
-                                            <a href="product-details">
-                                                <h6 class="fs-15 lh-base text-truncate mb-0">Nursing Chair Steam Grey</h6>
-                                            </a>
-                                            <div class="mt-3">
-                                                <span class="float-end">2.3 <i
-                                                        class="ri-star-half-fill text-warning align-bottom"></i></span>
-                                                <h5 class="mb-0">$632.00 <span
-                                                        class="text-muted fs-12"><del>$721.00</del></span></h5>
-                                            </div>
-                                            <div class="mt-3">
-                                                <a href="shop-cart" class="btn btn-primary btn-sm"><i
-                                                        class="mdi mdi-cart me-1"></i> Add to cart</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <!--end col-->
-            </div>
-            <!--end row-->
-        </div>
-        <!--end container-->
-    </section> --}}
-
-    <!-- START INSTAGRAM -->
-    <section class="section pb-0">
-        <div class="container">
-            <div class="row justify-content-center g-0">
-                <div class="col-lg-7">
-                    <div class="text-center">
-                        <h3 class="mb-3">Follow Us In Instagram</h3>
-                        <p class="text-muted fs-15">The most common approach that peoples use to say follow me on Instagram
-                            is by sending a direct message.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="position-relative">
-            <div class="row g-0 mt-5">
-                <div class="col">
-                    <div class="insta-img">
-                        <a href="#!" class="stretched-link">
-                            <img src="{{ URL::asset('build/images/ecommerce/instagram/img-1.jpg') }}" class="img-fluid"
-                                alt="">
-                            <i class="ri-instagram-line"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="insta-img">
-                        <a href="#!" class="stretched-link">
-                            <img src="{{ URL::asset('build/images/ecommerce/instagram/img-2.jpg') }}" class="img-fluid"
-                                alt="">
-                            <i class="ri-instagram-line"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col d-none d-md-block">
-                    <div class="insta-img">
-                        <a href="#!" class="stretched-link">
-                            <img src="{{ URL::asset('build/images/ecommerce/instagram/img-3.jpg') }}" class="img-fluid"
-                                alt="">
-                            <i class="ri-instagram-line"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col d-none d-md-block">
-                    <div class="insta-img">
-                        <a href="#!" class="stretched-link">
-                            <img src="{{ URL::asset('build/images/ecommerce/instagram/img-4.jpg') }}" class="img-fluid"
-                                alt="">
-                            <i class="ri-instagram-line"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col d-none d-lg-block">
-                    <div class="insta-img">
-                        <a href="#!" class="stretched-link">
-                            <img src="{{ URL::asset('build/images/ecommerce/instagram/img-5.jpg') }}" class="img-fluid"
-                                alt="">
-                            <i class="ri-instagram-line"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col d-none d-lg-block">
-                    <div class="insta-img">
-                        <a href="#!" class="stretched-link">
-                            <img src="{{ URL::asset('build/images/ecommerce/instagram/img-6.jpg') }}" class="img-fluid"
-                                alt="">
-                            <i class="ri-instagram-line"></i>
-                        </a>
+                        <h3 class="mb-3">PRISMAPRO PRODUCT SERVICE AND SUPPORT</h3>
+                        <p class="text-muted fs-15">We are always happy to help you in the best manner we can.</p>
                     </div>
                 </div>
             </div>
 
-            <div class="insta-lable text-center">
-                <a href="#!" class="btn btn-primary btn-hover">
-                    <i class="ph-instagram-logo align-middle me-1"></i> Follow In Instagram
-                </a>
-            </div>
-        </div>
-    </section>
-    <!-- END INSTAGRAM -->
+            <div class="row mt-2">
+                <div class="col-lg-4">
+                    <div class="card overflow-hidden">
+                        {{-- <img src="{{ URL::asset('build/images/small/1.jpg') }}" class="img-fluid" alt=""> --}}
+                        <div class="card-body">
+                            <div class="mt-3">
+                                <a href="#!">
+                                    <h3>Write to us</h3>
+                                    <h5 class="fs-17 lh-base">We are here to help</h5>
+                                </a>
+                                <p class="text-muted fs-15 mt-2">Feel free to write us at support@prismapro.com in case of
+                                    any queries. Our support team will be happy to solve your queries at earliest
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-    <section class="section">
-        <div class="container">
-            <div class="row gy-4 gy-lg-0">
-                <div class="col-lg-3 col-sm-6">
-                    <div class="d-flex align-items-center gap-3">
-                        <div class="flex-shrink-0">
-                            <img src="{{ URL::asset('build/images/ecommerce/fast-delivery.png') }}" alt=""
-                                class="avatar-sm">
-                        </div>
-                        <div class="flex-grow-1">
-                            <h5 class="fs-15">Fast &amp; Secure Delivery</h5>
-                            <p class="text-muted mb-0">Tell about your service.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="d-flex align-items-center gap-3">
-                        <div class="flex-shrink-0">
-                            <img src="{{ URL::asset('build/images/ecommerce/returns.png') }}" alt=""
-                                class="avatar-sm">
-                        </div>
-                        <div class="flex-grow-1">
-                            <h5 class="fs-15">2 Days Return Policy</h5>
-                            <p class="text-muted mb-0">No question ask.</p>
+                <div class="col-lg-4">
+                    <div class="card overflow-hidden">
+                        {{-- <img src="{{ URL::asset('build/images/small/2.jpg') }}" class="img-fluid" alt=""> --}}
+                        <div class="card-body">
+                            <div class="mt-3">
+                                <a href="#!">
+                                    <h3>Locate Service Center</h3>
+                                    <h5 class="fs-17 lh-base">We are nearby your vicinity</h5>
+                                </a>
+                                <p class="text-muted fs-15 mt-2">No more distance communication. You can search among
+                                    numerous service centers online near your vicinity and ask for relevant support.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="d-flex align-items-center gap-3">
-                        <div class="flex-shrink-0">
-                            <img src="{{ URL::asset('build/images/ecommerce/guarantee-certificate.png') }}"
-                                alt="" class="avatar-sm">
-                        </div>
-                        <div class="flex-grow-1">
-                            <h5 class="fs-15">Money Back Guarantee</h5>
-                            <p class="text-muted mb-0">Within 5 business days</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="d-flex align-items-center gap-3">
-                        <div class="flex-shrink-0">
-                            <img src="{{ URL::asset('build/images/ecommerce/24-hours-support.png') }}" alt=""
-                                class="avatar-sm">
-                        </div>
-                        <div class="flex-grow-1">
-                            <h5 class="fs-15">24 X 7 Service</h5>
-                            <p class="text-muted mb-0">Online service for customer</p>
+
+                <div class="col-lg-4">
+                    <div class="card overflow-hidden">
+                        {{-- <img src="{{ URL::asset('build/images/small/3.jpg') }}" class="img-fluid" alt=""> --}}
+                        <div class="card-body">
+                            <div class="mt-3">
+                                <a href="#!">
+                                    <h3>Know us better</h3>
+                                    <h5 class="fs-17 lh-base">Read FAQs</h5>
+                                </a>
+                                <p class="text-muted fs-15 mt-2">Do you have any questions about our products and services
+                                    or after sales support,<br> just explore the written FAQs and find your answer.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!-- END BLOG -->
 @endsection
 @section('scripts')
     <!-- isotope-layout -->

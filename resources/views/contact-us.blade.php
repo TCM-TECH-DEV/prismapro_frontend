@@ -6,20 +6,6 @@
     <!-- extra css -->
 @endsection
 @section('content')
-    <section class="ecommerce-about bg-primary">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-5">
-                    <div class="text-center">
-                        <h1 class="text-white">Contact Us</h1>
-                        <p class="fs-16 mb-0 text-white-75">Let's start something great together. Get in touch with one of
-                            the team today!</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section class="section">
         <div class="container">
             <div class="row">
@@ -33,8 +19,9 @@
                                     </div>
                                 </div>
                                 <div class="ms-3 flex-grow-1">
-                                    <h5 class="fs-17 lh-base mb-2">Our Main Office</h5>
-                                    <p class="text-muted fs-14 mb-0">Brusneva Ul., bld. 8, appt. 34, Stavropol, Russia</p>
+                                    <h5 class="fs-17 lh-base mb-2">THAILAND</h5>
+                                    <p class="text-muted fs-14 mb-0">22nd Fl., CTI Tower 191/40 Ratchadapisek New Rd.,
+                                        Klongtoey, Bangkok 10110, Thailand</p>
                                 </div>
                             </div>
                         </div>
@@ -49,7 +36,7 @@
                                 </div>
                                 <div class="ms-3 flex-grow-1">
                                     <h5 class="fs-17 lh-base mb-2">Phone Number</h5>
-                                    <p class="text-muted fs-14 mb-0">+(234) 12345 67890<br> 888-0123-4567 (Toll free)</p>
+                                    <p class="text-muted fs-14 mb-0">+(662) 261-5043-5</p>
                                 </div>
                             </div>
                         </div>
@@ -64,7 +51,23 @@
                                 </div>
                                 <div class="ms-3 flex-grow-1">
                                     <h5 class="fs-17 lh-base mb-2">Fax</h5>
-                                    <p class="text-muted fs-14 mb-0">1-234-567-8900</p>
+                                    <p class="text-muted fs-14 mb-0">+(662) 261-1091-2</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border border-opacity-25">
+                        <div class="card-body p-4">
+                            <div class="d-flex">
+                                <div class="avatar-sm flex-shrink-0">
+                                    <div class="avatar-title bg-primary-subtle text-primary rounded fs-17">
+                                        <i class="bi bi-geo-alt-fill"></i>
+                                    </div>
+                                </div>
+                                <div class="ms-3 flex-grow-1">
+                                    <h5 class="fs-17 lh-base mb-2">INDIA</h5>
+                                    <p class="text-muted fs-14 mb-0">Najafgarh Bijwasan Road, Opp Delhi Transco 400KV Power
+                                        Station, 110037 New Delhi, INDIA</p>
                                 </div>
                             </div>
                         </div>
@@ -79,7 +82,7 @@
                                 </div>
                                 <div class="ms-3 flex-grow-1">
                                     <h5 class="fs-17 lh-base mb-2">Email</h5>
-                                    <p class="text-muted fs-14 mb-0">support@themesbrand.com</p>
+                                    <p class="text-muted fs-14 mb-0">support@prismapro.com</p>
                                 </div>
                             </div>
                         </div>
@@ -92,7 +95,7 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="text-center mb-4">
-                                        <h3 class="text-capitalize">Get In Touch with us for more Information</h3>
+                                        <h3 class="text-capitalize">Stay Connected</h3>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
@@ -141,7 +144,7 @@
         </div>
     </section>
 
-    <section>
+    {{-- <section>
         <div class="container-fluid px-0">
             <div class="row g-0">
                 <div class="col-lg-12">
@@ -154,7 +157,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 @endsection
 @section('scripts')
     <!-- menu js -->
