@@ -19,7 +19,7 @@
                         <img src="{{ URL::asset('build/images/logo-light.png') }}" alt="" height="25" class="card-logo-light mx-auto">
                     </a>
                 </li>
-                <li class="nav-item dropdown dropdown-hover">
+                {{-- <li class="nav-item dropdown dropdown-hover">
                     <a class="nav-link dropdown-toggle" data-key="t-demos" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         {{ __('t-home') }}
                     </a>
@@ -37,14 +37,14 @@
                             <a href="trend-fashion" class="nav-link" data-key="t-trend-fashion">{{ __('t-trend-fashion') }}</a>
                         </li>
                     </ul>
-                </li>
+                </li> --}}
                 <li class="nav-item dropdown dropdown-hover dropdown-mega-full">
                     <a class="nav-link dropdown-toggle" data-key="t-catalog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         {{ __('t-catalog') }}
                     </a>
                     <div class="dropdown-menu p-0">
                         <div class="row g-0 g-lg-4">
-                            <div class="col-lg-2 d-none d-lg-block">
+                            {{-- <div class="col-lg-2 d-none d-lg-block">
                                 <div class="card rounded-start rounded-0 border-0 h-100 mb-0 overflow-hidden" style="background-image: url('build/images/ecommerce/img-1.jpg');background-size: cover;">
                                     <div class="bg-overlay bg-light bg-opacity-25"></div>
                                     <div class="card-body d-flex align-items-center justify-content-center">
@@ -53,8 +53,8 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-2">
+                            </div> --}}
+                            <div class="col-lg-4">
                                 <ul class="dropdown-menu-list list-unstyled mb-0 py-3">
                                     <li>
                                         <p class="mb-2 text-uppercase fs-11 fw-medium text-muted menu-title" data-key="t-men">{{ __('t-men') }}</p>
@@ -79,7 +79,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="col-lg-2">
+                            <div class="col-lg-4">
                                 <ul class="dropdown-menu-list list-unstyled mb-0 py-3">
                                     <li>
                                         <p class="mb-2 text-uppercase fs-11 fw-medium text-muted menu-title" data-key="t-women">{{ __('t-women') }}</p>
@@ -101,7 +101,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="col-lg-2">
+                            <div class="col-lg-4">
                                 <ul class="dropdown-menu-list list-unstyled mb-0 py-3">
                                     <li>
                                         <p class="mb-2 text-uppercase fs-11 fw-medium text-muted menu-title" data-key="t-accessories-others">{{ __('t-accessories-others') }}</p>
@@ -123,66 +123,10 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="col-lg-2">
-                                <ul class="dropdown-menu-list list-unstyled mb-0 py-3">
-                                    <li>
-                                        <p class="mb-2 text-uppercase fs-11 fw-medium text-muted menu-title" data-key="t-others">{{ __('t-others') }}</p>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="auth-signup-basic" class="nav-link" data-key="t-sign-up">{{ __('t-sign-up') }}</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="auth-signin-basic" class="nav-link" data-key="t-sign-in">{{ __('t-sign-in') }}</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="auth-pass-reset-basic" class="nav-link" data-key="t-passowrd-reset">{{ __('t-passowrd-reset') }}</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="auth-404" class="nav-link" data-key="t-error-404">{{ __('t-error-404') }}</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-lg-2 d-none d-lg-block">
-                                <div class="p-3">
-                                    <p class="mb-3 text-uppercase fs-11 fw-medium text-muted" data-key="t-top-brands">{{ __('t-top-brands') }}</p>
-                                    <div class="row g-2">
-                                        <div class="col-lg-4">
-                                            <a href="#!" class="d-block p-2 border border-dashed text-center rounded-3">
-                                                <img src="{{ URL::asset('build/images/brands/img-8.png') }}" alt="" class="avatar-sm">
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <a href="#!" class="d-block p-2 border border-dashed text-center rounded-3">
-                                                <img src="{{ URL::asset('build/images/brands/img-2.png') }}" alt="" class="avatar-sm">
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <a href="#!" class="d-block p-2 border border-dashed text-center rounded-3">
-                                                <img src="{{ URL::asset('build/images/brands/img-3.png') }}" alt="" class="avatar-sm">
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <a href="#!" class="d-block p-2 border border-dashed text-center rounded-3">
-                                                <img src="{{ URL::asset('build/images/brands/img-4.png') }}" alt="" class="avatar-sm">
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <a href="#!" class="d-block p-2 border border-dashed text-center rounded-3">
-                                                <img src="{{ URL::asset('build/images/brands/img-5.png') }}" alt="" class="avatar-sm">
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <a href="#!" class="d-block p-2 border border-dashed text-center rounded-3">
-                                                <img src="{{ URL::asset('build/images/brands/img-6.png') }}" alt="" class="avatar-sm">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </li>
-                <li class="nav-item dropdown dropdown-hover">
+                {{-- <li class="nav-item dropdown dropdown-hover">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-key="t-shop">
                         {{ __('t-shop') }}
                     </a>
@@ -249,8 +193,8 @@
                             </div>
                         </div>
                     </div>
-                </li>
-                <li class="nav-item dropdown dropdown-hover">
+                </li> --}}
+                {{-- <li class="nav-item dropdown dropdown-hover">
                     <a class="nav-link dropdown-toggle" data-key="t-pages" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         {{ __('t-pages') }}
                     </a>
@@ -350,11 +294,10 @@
                             </ul>
                         </li>
                     </ul>
-                </li>
-                
-                <li class="nav-item">
+                </li> --}}
+                {{-- <li class="nav-item">
                     <a class="nav-link" href="contact-us" data-key="t-contact">{{ __('t-contact') }}</a>
-                </li>
+                </li> --}}
             </ul>
         </div>
         <div class="bg-overlay navbar-overlay" data-bs-toggle="collapse"  data-bs-target="#navbarSupportedContent.show"></div>
@@ -369,7 +312,7 @@
                     <span class="position-absolute topbar-badge cartitem-badge fs-10 translate-middle badge rounded-pill bg-danger">4</span>
                 </button>
             </div>
-    
+
             <div class="dropdown topbar-head-dropdown ms-2 header-item dropdown-hover-end">
                 <button type="button" class="btn btn-icon btn-topbar btn-ghost-dark rounded-circle text-muted" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="bi bi-sun align-middle fs-20"></i>
@@ -715,12 +658,12 @@
 {{-- <a href="../backend/index" class="btn btn-warning position-fixed bottom-0 start-0 m-5 z-3 btn-hover d-none d-lg-block"><i class="bi bi-database align-middle me-1"></i> Backend</a> --}}
 
 <!--start back-to-top-->
-<button onclick="topFunction()" class="btn btn-info btn-icon" style="bottom: 50px;" id="back-to-top">
+{{-- <button onclick="topFunction()" class="btn btn-info btn-icon" style="bottom: 50px;" id="back-to-top">
     <i class="ri-arrow-up-line"></i>
-</button>
+</button> --}}
 <!--end back-to-top-->
 
-<a class="btn btn-danger shadow-lg chat-button rounded-bottom-0 d-none d-lg-block" data-bs-toggle="collapse" href="#chatBot" aria-expanded="false" aria-controls="chatBot">Online Chat</a>
+{{-- <a class="btn btn-danger shadow-lg chat-button rounded-bottom-0 d-none d-lg-block" data-bs-toggle="collapse" href="#chatBot" aria-expanded="false" aria-controls="chatBot">Online Chat</a>
 <div class="collapse chat-box" id="chatBot">
     <div class="card shadow-lg border-0 rounded-bottom-0 mb-0">
         <div class="card-header bg-success d-flex align-items-center border-0">
@@ -826,4 +769,4 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}

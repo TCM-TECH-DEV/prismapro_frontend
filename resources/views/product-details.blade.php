@@ -7,30 +7,7 @@
     <link href="{{ URL::asset('build/libs/swiper/swiper-bundle.min.css') }}" rel="stylesheet" type="text/css">
 @endsection
 @section('content')
-    <section class="ecommerce-about"
-        style="background-image: url('build/images/profile-bg.jpg'); background-size: cover;background-position: center;">
-        <div class="bg-overlay bg-primary" style="opacity: 0.85;"></div>
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <div class="text-center">
-                        <h1 class="text-white mb-0">Product Details</h1>
-                        <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb breadcrumb-light justify-content-center mt-4">
-                                <li class="breadcrumb-item"><a href="#">Product</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Product Details</li>
-                            </ol>
-                        </nav>
-                    </div>
-                </div>
-                <!--end col-->
-            </div>
-            <!--end row-->
-        </div>
-        <!--end container-->
-    </section>
-
-    <section class="section">
+    <section class="section pb-4">
         <div class="container">
             <div class="row gx-2">
                 <div class="col-lg-6">
@@ -40,31 +17,32 @@
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
                                         <div class="product-thumb rounded cursor-pointer">
-                                            <img src="{{ URL::asset('build/images/products/img-31.png') }}" alt=""
-                                                class="img-fluid" />
+                                            <img src="{{ URL::asset('build/images/products/iphne13promax/img-1.png') }}"
+                                                alt="" class="img-fluid" />
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="product-thumb rounded cursor-pointer">
-                                            <img src="{{ URL::asset('build/images/products/img-33.png') }}" alt=""
-                                                class="img-fluid" />
+                                            <img src="{{ URL::asset('build/images/products/iphne13promax/img-2.png') }}"
+                                                alt="" class="img-fluid" />
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="product-thumb rounded cursor-pointer">
-                                            <img src="{{ URL::asset('build/images/products/img-32.png') }}" alt=""
-                                                class="img-fluid" />
+                                            <img src="{{ URL::asset('build/images/products/iphne13promax/img-2.png') }}"
+                                                alt="" class="img-fluid" />
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="product-thumb rounded cursor-pointer">
-                                            <img src="{{ URL::asset('build/images/products/img-34.png') }}" alt=""
-                                                class="img-fluid" />
+                                            <img src="{{ URL::asset('build/images/products/iphne13promax/img-2.png') }}"
+                                                alt="" class="img-fluid" />
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="product-thumb rounded cursor-pointer">
-                                            <img src="{{ URL::asset('build/images/products/img-34.png') }}" class="img-fluid" />
+                                            <img src="{{ URL::asset('build/images/products/iphne13promax/img-2.png') }}"
+                                                class="img-fluid" />
                                         </div>
                                     </div>
                                 </div>
@@ -80,24 +58,24 @@
                                 <div class="swiper productSwiper2">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide ">
-                                            <img src="{{ URL::asset('build/images/products/img-31.png') }}" alt=""
-                                                class="img-fluid" />
+                                            <img src="{{ URL::asset('build/images/products/iphne13promax/img-1.png') }}"
+                                                alt="" class="img-fluid" />
                                         </div>
                                         <div class="swiper-slide">
-                                            <img src="{{ URL::asset('build/images/products/img-33.png') }}" alt=""
-                                                class="img-fluid" />
+                                            <img src="{{ URL::asset('build/images/products/iphne13promax/img-2.png') }}"
+                                                alt="" class="img-fluid" />
                                         </div>
                                         <div class="swiper-slide">
-                                            <img src="{{ URL::asset('build/images/products/img-32.png') }}" alt=""
-                                                class="img-fluid" />
+                                            <img src="{{ URL::asset('build/images/products/iphne13promax/img-2.png') }}"
+                                                alt="" class="img-fluid" />
                                         </div>
                                         <div class="swiper-slide">
-                                            <img src="{{ URL::asset('build/images/products/img-34.png') }}" alt=""
-                                                class="img-fluid" />
+                                            <img src="{{ URL::asset('build/images/products/iphne13promax/img-2.png') }}"
+                                                alt="" class="img-fluid" />
                                         </div>
                                         <div class="swiper-slide">
-                                            <img src="{{ URL::asset('build/images/products/img-34.png') }}" alt=""
-                                                class="img-fluid" />
+                                            <img src="{{ URL::asset('build/images/products/iphne13promax/img-2.png') }}"
+                                                alt="" class="img-fluid" />
                                         </div>
                                     </div>
                                     <div class="swiper-button-next bg-transparent"></div>
@@ -135,23 +113,33 @@
                                     <i class="ri-star-fill align-bottom"></i>
                                     <i class="ri-star-fill align-bottom"></i>
                                     <i class="ri-star-fill align-bottom"></i>
-                                    <i class="ri-star-half-fill align-bottom"></i>
+                                    <i class="ri-star-fill align-bottom"></i>
+                                    {{-- <i class="ri-star-half-fill align-bottom"></i> --}}
                                 </div>
-                                <span class="fw-medium"> (50 Review)</span>
+                                <span class="fw-medium"> (grade A)</span>
                             </div>
-                            <h4 class="lh-base mb-1">Opinion Striped Round Neck Green T-shirt</h4>
-                            <p class="text-muted mb-4">The best part about stripped t shirt denim & white sneakers or wear
-                                it with a cool chinos and blazer to dress up <a href="javascript:void(0);"
-                                    class="link-info">Read More</a></p>
-                            <h5 class="fs-24 mb-4">$185.79 <span class="text-muted fs-14"><del>$280.99</del></span> <span
-                                    class="fs-14 ms-2 text-danger"> (50% off)</span></h5>
+                            <h4 class="lh-base mb-1">iPhone 13 Pro Max</h4>
+                            {{-- <p class="text-muted mb-4">Our environmental goals.</p> --}}
+                            <div><strong>Our environmental goals.</strong><br><br>
+                                As part of our efforts to reach <a href="https://www.apple.com/environment"
+                                    data-slot-name="main-9" data-feature-name="Astro Link"
+                                    data-display-name="AOS: environment">carbon neutrality by 2030</a>, iPhone&nbsp;13 does
+                                not include a power adapter or EarPods. Included in the box is a USB‑C to Lightning Cable
+                                that supports fast charging and is compatible with USB‑C power adapters and computer
+                                ports.<br><br>
+                                We encourage you to re‑use your current USB‑A to Lightning cables, power adapters, and
+                                headphones, which are compatible with these iPhone models. But if you need any new Apple
+                                power adapters or headphones, they are available for purchase.</div>
+
+                            <h5 class="fs-24 mt-2 mb-4">$650.00
+                                {{-- <span class="text-muted fs-14"><del>$280.99</del></span> <span
+                                    class="fs-14 ms-2 text-danger"> (50% off)</span> --}}
+                            </h5>
                             <ul class="list-unstyled vstack gap-2">
                                 <li class=""><i class="bi bi-check2-circle me-2 align-middle text-success"></i>In
                                     stock</li>
                                 <li class=""><i class="bi bi-check2-circle me-2 align-middle text-success"></i>Free
                                     delivery available</li>
-                                <li class=""><i class="bi bi-check2-circle me-2 align-middle text-success"></i>Sales
-                                    10% Off Use Code: <b>FASHION10</b></li>
                             </ul>
                             <h6 class="fs-14 text-muted mb-3">Available offers :</h6>
                             <ul class="list-unstyled vstack gap-2 mb-0">
@@ -167,7 +155,7 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li>
+                                {{-- <li>
                                     <div class="d-flex gap-3">
                                         <div class="flex-shrink-0">
                                             <i class="bi bi-tag-fill text-success align-middle fs-15"></i>
@@ -178,7 +166,7 @@
                                                 data-bs-title="Terms & Conditions">T&C</a>
                                         </div>
                                     </div>
-                                </li>
+                                </li> --}}
                             </ul>
                         </div>
                         <div class="d-flex align-items-center mb-4">
@@ -190,7 +178,7 @@
                                 <button type="button" class="plus">+</button>
                             </div>
                         </div>
-                        <div class="row gy-3">
+                        {{-- <div class="row gy-3">
                             <div class="col-md-6">
                                 <div>
                                     <h6 class="fs-14 fw-medium text-muted">Sizes:</h6>
@@ -233,7 +221,7 @@
                                     </li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <!--end col-->
@@ -265,56 +253,408 @@
                         <div class="tab-pane active" id="home1" role="tabpanel">
                             <table class="table table-sm table-borderless align-middle">
                                 <tr>
-                                    <th>Type</th>
-                                    <td>Round Neck</td>
+                                    <th>Capacity1</th>
+                                    <td>
+                                        <ul class="list gb-list alignment horizontal-align-left">
+                                            {{-- <li class="gb-list_item">
+                                                <p class="gb-paragraph">128GB</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">256GB</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">512GB</p>
+                                            </li> --}}
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">1TB</p>
+                                            </li>
+                                        </ul>
+                                    </td>
                                 </tr>
                                 <tr>
-                                    <th>Sleeve</th>
-                                    <td>Short Sleeve</td>
+                                    <th>Size and Weight2</th>
+                                    <td>
+                                        <ul class="list gb-list alignment horizontal-align-left">
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Width: 3.07 inches (78.1 mm)</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Height: 6.33 inches (160.8 mm)</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Depth: 0.30 inch (7.65 mm)</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Weight: 8.46 ounces (240 grams)</p>
+                                            </li>
+                                        </ul>
+                                    </td>
                                 </tr>
                                 <tr>
-                                    <th>Fit</th>
-                                    <td>Regular</td>
+                                    <th>Display</th>
+                                    <td>
+                                        <ul class="list gb-list alignment horizontal-align-left">
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Super Retina XDR display with ProMotion</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">6.7‑inch (diagonal) all‑screen OLED display</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">2778‑by‑1284-pixel resolution at 458 ppi</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">ProMotion technology with adaptive refresh rates up
+                                                    to 120Hz</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">HDR display</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">True Tone</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Wide color (P3)</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Haptic Touch</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">2,000,000:1 contrast ratio (typical)</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">1000 nits max brightness (typical); 1200 nits max
+                                                    brightness (HDR)</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Fingerprint-resistant oleophobic coating</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Support for display of multiple languages and
+                                                    characters simultaneously</p>
+                                            </li>
+                                        </ul>
+                                    </td>
                                 </tr>
                                 <tr>
-                                    <th>Sales Package</th>
-                                    <td>1 T shirt</td>
+                                    <th>Splash, Water, and Dust Resistant3</th>
+                                    <td>
+                                        <ul class="list gb-list alignment horizontal-align-left">
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Rated IP68 (maximum depth of 6 meters up to 30
+                                                    minutes) under IEC standard 60529</p>
+                                            </li>
+                                        </ul>
+                                    </td>
                                 </tr>
                                 <tr>
-                                    <th>Pack of</th>
-                                    <td>1</td>
+                                    <th>Chip</th>
+                                    <td>
+                                        <ul class="list gb-list alignment horizontal-align-left">
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">A15 Bionic chip</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">New 6‑core CPU with 2 performance and 4 efficiency
+                                                    cores</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">New 5‑core GPU</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">New 16‑core Neural Engine</p>
+                                            </li>
+                                        </ul>
+                                    </td>
                                 </tr>
                                 <tr>
-                                    <th>Style Code</th>
-                                    <td>HYP02</td>
+                                    <th>Camera</th>
+                                    <td>
+                                        <ul class="list gb-list alignment horizontal-align-left">
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Pro 12MP camera system: Telephoto, Wide, and Ultra
+                                                    Wide cameras</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Telephoto: ƒ/2.8 aperture</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Wide: ƒ/1.5 aperture</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Ultra Wide: ƒ/1.8 aperture and 120° field of view
+                                                </p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">3x optical zoom in, 2x optical zoom out; 6x optical
+                                                    zoom range</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Digital zoom up to 15x</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Night mode portraits enabled by LiDAR Scanner</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Portrait mode with advanced bokeh and Depth Control
+                                                </p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Portrait Lighting with six effects (Natural,
+                                                    Studio, Contour, Stage, Stage Mono, High‑Key Mono)</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Dual optical image stabilization (Telephoto and
+                                                    Wide)</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Sensor‑shift optical image stabilization (Wide)</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Six‑element lens (Telephoto and Ultra Wide);
+                                                    seven‑element lens (Wide)</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">True Tone flash with Slow Sync</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Panorama (up to 63MP)</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Sapphire crystal lens cover</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">100% Focus Pixels (Wide)</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Night mode</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Deep Fusion</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Smart HDR 4</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Photographic Styles</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Macro photography</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Apple ProRAW</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Wide color capture for photos and Live Photos</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Lens correction (Ultra Wide)</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Advanced red‑eye correction</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Photo geotagging</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Auto image stabilization</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Burst mode</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Image formats captured: HEIF and JPEG</p>
+                                            </li>
+                                        </ul>
+                                    </td>
                                 </tr>
                                 <tr>
-                                    <th>Neck Type</th>
-                                    <td>Round Neck</td>
+                                    <th>Video Recording</th>
+                                    <td>
+                                        <ul class="list gb-list alignment horizontal-align-left">
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Cinematic mode for recording videos with shallow
+                                                    depth of field (in 1080p at 30 fps)</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">HDR video recording with Dolby Vision up to 4K at
+                                                    60 fps</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">4K video recording at 24 fps, 25 fps, 30 fps, or 60
+                                                    fps</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">1080p HD video recording at 25 fps, 30 fps, or 60
+                                                    fps</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">720p HD video recording at 30 fps</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">ProRes video recording up to 4K at 30 fps (1080p at
+                                                    30 fps for 128GB storage)</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Macro video recording, including slo-mo and
+                                                    time‑lapse</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Dual optical image stabilization for video
+                                                    (Telephoto and Wide)</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Sensor‑shift optical image stabilization for video
+                                                    (Wide)</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">3x optical zoom in, 2x optical zoom out; 6x optical
+                                                    zoom range</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Digital zoom up to 9x</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Audio zoom</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">True Tone flash</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">QuickTake video</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Slo‑mo video support for 1080p at 120 fps or 240
+                                                    fps</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Time‑lapse video with stabilization</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Night mode Time‑lapse</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Cinematic video stabilization (4K, 1080p, and 720p)
+                                                </p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Continuous autofocus video</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Take 8MP still photos while recording 4K video</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Playback zoom</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Video formats recorded: HEVC, H.264, and ProRes</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Stereo recording</p>
+                                            </li>
+                                        </ul>
+                                    </td>
                                 </tr>
                                 <tr>
-                                    <th>Ideal For</th>
-                                    <td>Men</td>
+                                    <th>TrueDepth Camera</th>
+                                    <td>
+                                        <ul class="list gb-list alignment horizontal-align-left">
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">12MP camera</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">ƒ/2.2 aperture</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Portrait mode with advanced bokeh and Depth Control
+                                                </p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Portrait Lighting with six effects (Natural,
+                                                    Studio, Contour, Stage, Stage Mono, High‑Key Mono)</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Animoji and Memoji</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Night mode</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Deep Fusion</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Smart HDR 4</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Photographic Styles</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Apple ProRAW</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Cinematic mode for recording videos with shallow
+                                                    depth of field (in 1080p at 30 fps)</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">HDR video recording with Dolby Vision up to 4K at
+                                                    60 fps</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">4K video recording at 24 fps, 25 fps, 30 fps, or 60
+                                                    fps</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">1080p HD video recording at 25 fps, 30 fps, or 60
+                                                    fps</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">ProRes video recording up to 4K at 30 fps (1080p at
+                                                    30 fps for 128GB storage)</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Slo‑mo video support for 1080p at 120 fps</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Time‑lapse video with stabilization</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Night mode Time‑lapse</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Cinematic video stabilization (4K, 1080p, and 720p)
+                                                </p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">QuickTake video</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Wide color capture for photos and Live Photos</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Lens correction</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Retina Flash</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Auto image stabilization</p>
+                                            </li>
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Burst mode</p>
+                                            </li>
+                                        </ul>
+                                    </td>
                                 </tr>
                                 <tr>
-                                    <th>Size</th>
-                                    <td>L</td>
-                                </tr>
-                                <tr>
-                                    <th>Pattern</th>
-                                    <td>Solid</td>
-                                </tr>
-                                <tr>
-                                    <th>Suitable For</th>
-                                    <td>Western Wear</td>
-                                </tr>
-                                <tr>
-                                    <th>Fabric Care</th>
-                                    <td>Do not bleach</td>
-                                </tr>
-                                <tr>
-                                    <th>Seller</th>
-                                    <td>Zibra Fashion</td>
+                                    <th>Face ID</th>
+                                    <td>
+                                        <ul class="list gb-list alignment horizontal-align-left">
+                                            <li class="gb-list_item">
+                                                <p class="gb-paragraph">Enabled by TrueDepth camera for facial recognition
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <th>Color</th>
@@ -326,12 +666,12 @@
                                 </tr>
                             </table>
 
-                            <p class="text-muted fs-15">Clothing serves many purposes: it can serve as protection from the
+                            {{-- <p class="text-muted fs-15">Clothing serves many purposes: it can serve as protection from the
                                 elements, rough surfaces, sharp stones, rash-causing plants, insect bites, by providing a
                                 barrier between the skin and the environment. It is worth noting that a man's style goes
                                 beyond his outward appearance. Style is about more than the clothes you wear. It's who you
                                 are on the inside and how you present yourself to the outside world. It's having
-                                appreciation and cultivating gratitude.</p>
+                                appreciation and cultivating gratitude.</p> --}}
                         </div>
                         <div class="tab-pane" id="profile1" role="tabpanel">
 
@@ -510,7 +850,8 @@
                                             <div class="d-flex mt-4">
                                                 <div class="flex-shrink-0 me-3">
                                                     <img class="avatar-xs rounded-circle"
-                                                        src="{{ URL::asset('build/images/users/avatar-1.jpg') }}" alt="">
+                                                        src="{{ URL::asset('build/images/users/avatar-1.jpg') }}"
+                                                        alt="">
                                                 </div>
                                                 <div class="flex-grow-1">
                                                     <div class="d-flex mb-3">
@@ -615,7 +956,8 @@
                                             <div class="d-flex mt-4">
                                                 <div class="flex-shrink-0 me-3">
                                                     <img class="avatar-xs rounded-circle"
-                                                        src="{{ URL::asset('build/images/users/avatar-1.jpg') }}" alt="">
+                                                        src="{{ URL::asset('build/images/users/avatar-1.jpg') }}"
+                                                        alt="">
                                                 </div>
                                                 <div class="flex-grow-1">
                                                     <div class="d-flex mb-3">
@@ -683,304 +1025,14 @@
         </div>
     </section>
 
-    <div class="position-relative">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h4 class="mb-4">You might be interested in</h4>
-                </div>
-                <!--end col-->
-            </div>
-            <!--end row-->
-            <div class="row gy-3">
-                <div class="col-lg-4">
-                    <a href="product-grid-right" class="card mb-3 card-animate stretched-link">
-                        <div class="row g-0">
-                            <div class="col-sm-4">
-                                <img src="{{ URL::asset('build/images/ecommerce/img-5.jpg') }}"
-                                    class="img-fluid rounded-start h-100 object-fit-cover" alt="...">
-                            </div>
-                            <div class="col-sm-8">
-                                <div class="card-body h-100 d-flex flex-column">
-                                    <h6 class="fs-16">Women's T-shirts</h6>
-                                    <p class="card-text text-muted">Min. 50% off</p>
-
-                                    <div class="mt-auto">
-                                        <div class="btn btn-soft-secondary btn-sm">Shop Now</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!--end col-->
-                <div class="col-lg-4">
-                    <a href="product-grid-right" class="card mb-3 card-animate stretched-link">
-                        <div class="row g-0">
-                            <div class="col-sm-4">
-                                <img src="{{ URL::asset('build/images/ecommerce/img-2.jpg') }}"
-                                    class="img-fluid rounded-start h-100 object-fit-cover" alt="...">
-                            </div>
-                            <div class="col-sm-8">
-                                <div class="card-body h-100 d-flex flex-column">
-                                    <h4 class="fs-16">Men's Fashion</h4>
-                                    <p class="card-text text-muted">Min. 20% off</p>
-
-                                    <div class="mt-auto">
-                                        <div class="btn btn-soft-primary btn-sm">Shop Now</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4">
-                    <a href="product-grid-right" class="card mb-3 card-animate stretched-link">
-                        <div class="row g-0">
-                            <div class="col-sm-4">
-                                <img src="{{ URL::asset('build/images/ecommerce/img-3.jpg') }}"
-                                    class="img-fluid rounded-start h-100 object-fit-cover" alt="...">
-                            </div>
-                            <div class="col-sm-8">
-                                <div class="card-body h-100 d-flex flex-column">
-                                    <h4 class="card-title">Women Footwear</h4>
-                                    <p class="card-text text-muted">Up to 40-50% off</p>
-
-                                    <div class="mt-auto">
-                                        <div class="btn btn-soft-info btn-sm">Shop Now</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!--end col-->
-            </div>
-            <!--end row-->
-        </div>
-        <!--end container-->
-    </div>
-
-    <section class="section">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                    <div class="d-flex align-items-center justify-content-between mb-4 pb-1">
-                        <h4 class="flex-grow-1 mb-0">Similar Products</h4>
-                        <div class="flex-shrink-0">
-                            <a href="product-grid-defualt" class="link-effect link-secondary">All Products <i
-                                    class="ri-arrow-right-line ms-1 align-bottom"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!--end col-->
-            </div>
-            <!--end row-->
-            <div class="row">
-                <div class="col-xxl-3 col-lg-4 col-sm-6">
-                    <div
-                        class="card ecommerce-product-widgets border-0 rounded-0 shadow-none overflow-hidden card-animate">
-                        <div class="bg-light bg-opacity-50 rounded py-4 position-relative">
-                            <img src="{{ URL::asset('build/images/products/img-12.png') }}" alt=""
-                                style="max-height: 200px;max-width: 100%;" class="mx-auto d-block rounded-2">
-                            <div class="action vstack gap-2">
-                                <button class="btn btn-danger avatar-xs p-0 btn-soft-warning custom-toggle product-action"
-                                    data-bs-toggle="button"><span class="icon-on"><i
-                                            class="ri-heart-line"></i></span><span class="icon-off"><i
-                                            class="ri-heart-fill"></i></span></button>
-                            </div>
-                        </div>
-                        <div class="pt-4">
-                            <ul class="clothe-colors list-unstyled hstack gap-1 mb-3 flex-wrap">
-                                <li><input type="radio" name="sizes10" id="product-color-102"><label
-                                        class="avatar-xxs btn btn-secondary p-0 d-flex align-items-center justify-content-center rounded-circle"
-                                        for="product-color-102"></label></li>
-                                <li><input type="radio" name="sizes10" id="product-color-103"><label
-                                        class="avatar-xxs btn btn-dark p-0 d-flex align-items-center justify-content-center rounded-circle"
-                                        for="product-color-103"></label></li>
-                                <li><input type="radio" name="sizes10" id="product-color-104"><label
-                                        class="avatar-xxs btn btn-danger p-0 d-flex align-items-center justify-content-center rounded-circle"
-                                        for="product-color-104"></label></li>
-                                <li><input type="radio" name="sizes10" id="product-color-105"><label
-                                        class="avatar-xxs btn btn-light p-0 d-flex align-items-center justify-content-center rounded-circle"
-                                        for="product-color-105"></label></li>
-                            </ul>
-                            <a href="product-details">
-                                <h6 class="text-capitalize fs-15 lh-base text-truncate mb-0">Carven Lounge Chair Red</h6>
-                            </a>
-                            <div class="mt-2">
-                                <span class="float-end">4.1 <i
-                                        class="ri-star-half-fill text-warning align-bottom"></i></span>
-                                <h5 class="mb-0">$209.99</h5>
-                            </div>
-                            <div class="mt-3">
-                                <a href="shop-cart" class="btn btn-primary w-100 add-btn"><i
-                                        class="mdi mdi-cart me-1"></i> Add To Cart</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--end col-->
-                <div class="col-xxl-3 col-lg-4 col-sm-6">
-                    <div
-                        class="card ecommerce-product-widgets border-0 rounded-0 shadow-none overflow-hidden card-animate">
-                        <div class="bg-light bg-opacity-50 rounded py-4 position-relative">
-                            <img src="{{ URL::asset('build/images/products/img-7.png') }}" alt=""
-                                style="max-height: 200px;max-width: 100%;" class="mx-auto d-block rounded-2">
-                            <div class="action vstack gap-2">
-                                <button class="btn btn-danger avatar-xs p-0 btn-soft-warning custom-toggle product-action "
-                                    data-bs-toggle="button"><span class="icon-on"><i
-                                            class="ri-heart-line"></i></span><span class="icon-off"><i
-                                            class="ri-heart-fill"></i></span></button>
-                            </div>
-                        </div>
-                        <div class="pt-4">
-                            <div>
-                                <div class="avatar-xxs mb-4">
-                                    <div class="avatar-title bg-light text-muted rounded cursor-pointer"><i
-                                            class="ri-error-warning-line"></i></div>
-                                </div>
-                                <a href="#!">
-                                    <h6 class="text-capitalize fs-15 lh-base text-truncate mb-0">Innovative education book
-                                    </h6>
-                                </a>
-                                <div class="mt-2">
-                                    <span class="float-end">4.7 <i
-                                            class="ri-star-half-fill text-warning align-bottom"></i></span>
-                                    <h5 class="mb-0">$96.26</h5>
-                                </div>
-                                <div class="mt-3">
-                                    <a href="shop-cart" class="btn btn-primary w-100 add-btn"><i
-                                            class="mdi mdi-cart me-1"></i> Add To Cart</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--end col-->
-                <div class="col-xxl-3 col-lg-4 col-sm-6">
-                    <div
-                        class="card ecommerce-product-widgets border-0 rounded-0 shadow-none overflow-hidden card-animate">
-                        <div class="bg-light bg-opacity-50 rounded py-4 position-relative">
-                            <img src="{{ URL::asset('build/images/products/img-3.png') }}" alt=""
-                                style="max-height: 200px;max-width: 100%;" class="mx-auto d-block rounded-2">
-                            <div class="action vstack gap-2">
-                                <button class="btn btn-danger avatar-xs p-0 btn-soft-warning custom-toggle product-action "
-                                    data-bs-toggle="button"><span class="icon-on"><i
-                                            class="ri-heart-line"></i></span><span class="icon-off"><i
-                                            class="ri-heart-fill"></i></span></button>
-                            </div>
-                            <div class="avatar-xs label">
-                                <div class="avatar-title bg-danger rounded-circle fs-11">20%</div>
-                            </div>
-                        </div>
-                        <div class="pt-4">
-                            <ul class="clothe-colors list-unstyled hstack gap-1 mb-3 flex-wrap">
-                                <li><input type="radio" name="sizes11" id="product-color-112"><label
-                                        class="avatar-xxs btn btn-secondary p-0 d-flex align-items-center justify-content-center rounded-circle"
-                                        for="product-color-112"></label></li>
-                                <li><input type="radio" name="sizes11" id="product-color-113"><label
-                                        class="avatar-xxs btn btn-info p-0 d-flex align-items-center justify-content-center rounded-circle"
-                                        for="product-color-113"></label></li>
-                            </ul>
-                            <a href="product-details">
-                                <h6 class="text-capitalize fs-15 lh-base text-truncate mb-0">Ninja Pro Max Smartwatch</h6>
-                            </a>
-                            <div class="mt-2">
-                                <span class="float-end">3.5 <i
-                                        class="ri-star-half-fill text-warning align-bottom"></i></span>
-                                <h5 class="mb-0">$247.27 <span class="text-muted fs-12"><del>$309.09</del></span></h5>
-                            </div>
-                            <div class="mt-3">
-                                <a href="shop-cart" class="btn btn-primary w-100 add-btn"><i
-                                        class="mdi mdi-cart me-1"></i> Add To Cart</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--end col-->
-                <div class="col-xxl-3 col-lg-4 col-sm-6">
-                    <div
-                        class="card ecommerce-product-widgets border-0 rounded-0 shadow-none overflow-hidden card-animate">
-                        <div class="bg-light bg-opacity-50 rounded py-4 position-relative">
-                            <img src="{{ URL::asset('build/images/products/img-2.png') }}" alt=""
-                                style="max-height: 200px;max-width: 100%;" class="mx-auto d-block rounded-2">
-                            <div class="action vstack gap-2">
-                                <button class="btn btn-danger avatar-xs p-0 btn-soft-warning custom-toggle product-action "
-                                    data-bs-toggle="button"><span class="icon-on"><i
-                                            class="ri-heart-line"></i></span><span class="icon-off"><i
-                                            class="ri-heart-fill"></i></span></button>
-                            </div>
-                        </div>
-                        <div class="pt-4">
-                            <ul class="clothe-colors list-unstyled hstack gap-1 mb-3 flex-wrap">
-                                <li><input type="radio" name="sizes12" id="product-color-122"><label
-                                        class="avatar-xxs btn btn-success p-0 d-flex align-items-center justify-content-center rounded-circle"
-                                        for="product-color-122"></label></li>
-                            </ul>
-                            <a href="product-details">
-                                <h6 class="text-capitalize fs-15 lh-base text-truncate mb-0">Opinion Striped Round Neck
-                                    Green T-shirt</h6>
-                            </a>
-                            <div class="mt-2">
-                                <span class="float-end">4.1 <i
-                                        class="ri-star-half-fill text-warning align-bottom"></i></span>
-                                <h5 class="mb-0">$126.99</h5>
-                            </div>
-                            <div class="mt-3">
-                                <a href="shop-cart" class="btn btn-primary w-100 add-btn"><i
-                                        class="mdi mdi-cart me-1"></i> Add To Cart</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--end col-->
-            </div>
-            <!--end row-->
-        </div>
-        <!--end section-->
-    </section>
-
-    <section class="section bg-light bg-opacity-25"
-        style="background-image: url('build/images/ecommerce/bg-effect.png');background-position: center; background-size: cover;">
-        <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-lg-6">
-                    <div>
-                        <p class="fs-15 text-uppercase fw-medium"><span class="fw-semibold text-danger">25% Up to</span>
-                            off all Products</p>
-                        <h1 class="lh-base text-capitalize mb-3">Stay home & get your daily needs from our shop</h1>
-                        <p class="fs-15 mb-4 pb-2">Start you'r daily shopping with <a href="#!"
-                                class="link-info fw-medium">Toner</a></p>
-                        <form action="#!">
-                            <div class="position-relative ecommerce-subscript">
-                                <input type="email" class="form-control rounded-pill" placeholder="Enter your email">
-                                <button type="submit" class="btn btn-primary btn-hover rounded-pill">Subscript
-                                    Now</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <!--end col-->
-                <div class="col-lg-4">
-                    <div>
-                        <img src="{{ URL::asset('build/images/ecommerce/subscribe.png') }}" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <!--end col-->
-            </div>
-            <!--end row-->
-        </div>
-        <!--end conatiner-->
-    </section>
-
     <section class="position-relative py-5">
         <div class="container">
             <div class="row gy-4 gy-lg-0">
                 <div class="col-lg-3 col-sm-6">
                     <div class="d-flex align-items-center gap-3">
                         <div class="flex-shrink-0">
-                            <img src="{{ URL::asset('build/images/ecommerce/fast-delivery.png') }}" alt="" class="avatar-sm">
+                            <img src="{{ URL::asset('build/images/ecommerce/fast-delivery.png') }}" alt=""
+                                class="avatar-sm">
                         </div>
                         <div class="flex-grow-1">
                             <h5 class="fs-15">Fast &amp; Secure Delivery</h5>
@@ -992,7 +1044,8 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="d-flex align-items-center gap-3">
                         <div class="flex-shrink-0">
-                            <img src="{{ URL::asset('build/images/ecommerce/returns.png') }}" alt="" class="avatar-sm">
+                            <img src="{{ URL::asset('build/images/ecommerce/returns.png') }}" alt=""
+                                class="avatar-sm">
                         </div>
                         <div class="flex-grow-1">
                             <h5 class="fs-15">2 Days Return Policy</h5>
@@ -1004,8 +1057,8 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="d-flex align-items-center gap-3">
                         <div class="flex-shrink-0">
-                            <img src="{{ URL::asset('build/images/ecommerce/guarantee-certificate.png') }}" alt=""
-                                class="avatar-sm">
+                            <img src="{{ URL::asset('build/images/ecommerce/guarantee-certificate.png') }}"
+                                alt="" class="avatar-sm">
                         </div>
                         <div class="flex-grow-1">
                             <h5 class="fs-15">Money Back Guarantee</h5>
@@ -1017,7 +1070,8 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="d-flex align-items-center gap-3">
                         <div class="flex-shrink-0">
-                            <img src="{{ URL::asset('build/images/ecommerce/24-hours-support.png') }}" alt="" class="avatar-sm">
+                            <img src="{{ URL::asset('build/images/ecommerce/24-hours-support.png') }}" alt=""
+                                class="avatar-sm">
                         </div>
                         <div class="flex-grow-1">
                             <h5 class="fs-15">24 X 7 Service</h5>
