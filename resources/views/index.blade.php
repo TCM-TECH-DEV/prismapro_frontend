@@ -83,6 +83,133 @@
         </div>
     </section>
 
+    <section class="section bg-light bg-opacity-50 py-2">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="text-left">
+                        <h3 class="mb-3">Welcome to Prisma Pro!</h3>
+                        <p class="text-muted fs-15">
+                        <p>Prisma Pro (America), Inc. was founded in 1998 and has been a trusted name in the industry ever
+                            since. We specialize in the wholesale buying and selling of used and refurbished iPhones. With a
+                            dedication to quality and customer satisfaction, we also offer comprehensive device repair and
+                            polishing services. Our global operations span across the USA, Thailand, and the UAE, ensuring
+                            top-notch service and products worldwide.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card overflow-hidden">
+                        <img src="{{ URL::asset('build/images/small/img-4.jpg') }}" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+
+            {{-- <div class="row mt-2">
+                <div class="col-lg-6">
+                    <div class="card overflow-hidden">
+                        <img src="{{ URL::asset('build/images/small/img-5.jpg') }}" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="text-left">
+                        <h3 class="mb-3">Our Services</h3>
+                        <p class="text-muted fs-15">Ever growing with constant innovation</p>
+                        <p class="text-muted fs-15">
+                        <p>
+                        <ul class="list-unstyled mb-0">
+                            <li class="d-flex">
+                                <div class="flex-grow-1">
+                                    <label for="directMessage" class="form-check-label fs-14"><b>Device Repair:</b> Fast
+                                        and
+                                        reliable repair services for all iPhone models.</label>
+                                </div>
+                            </li>
+                            <li class="d-flex">
+                                <div class="flex-grow-1">
+                                    <label for="directMessage" class="form-check-label fs-14"><b>Polishing Services:</b>
+                                        Professional polishing to restore your device's shine.</label>
+                                </div>
+                            </li>
+                            <li class="d-flex">
+                                <div class="flex-grow-1">
+                                    <label for="directMessage" class="form-check-label fs-14"><b>Call-to-action
+                                            button:</b>
+                                        Learn More</label>
+
+                                </div>
+                            </li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+            </div> --}}
+        </div>
+    </section>
+
+    <!-- START BLOG -->
+    <section class="section bg-light bg-opacity-50 py-2">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <div class="text-center">
+                        <h3 class="mb-3">Our Services</h3>
+                        {{-- <p class="text-muted fs-15">We are always happy to help you in the best manner we can.</p> --}}
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-2">
+                <div class="col-lg-4">
+                    <div class="card overflow-hidden">
+                        {{-- <img src="{{ URL::asset('build/images/small/1.jpg') }}" class="img-fluid" alt=""> --}}
+                        <div class="card-body">
+                            <div class="mt-3">
+                                <a href="#!">
+                                    <h3>Device Repair</h3>
+                                    {{-- <h5 class="fs-17 lh-base">We are here to help</h5> --}}
+                                </a>
+                                <p class="text-muted fs-15 mt-2">"Fast and reliable repair services for all iPhone models."
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card overflow-hidden">
+                        {{-- <img src="{{ URL::asset('build/images/small/2.jpg') }}" class="img-fluid" alt=""> --}}
+                        <div class="card-body">
+                            <div class="mt-3">
+                                <a href="#!">
+                                    <h3>Polishing Services</h3>
+                                    {{-- <h5 class="fs-17 lh-base">We are nearby your vicinity</h5> --}}
+                                </a>
+                                <p class="text-muted fs-15 mt-2">Professional polishing to restore your device's shine.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card overflow-hidden">
+                        {{-- <img src="{{ URL::asset('build/images/small/3.jpg') }}" class="img-fluid" alt=""> --}}
+                        <div class="card-body">
+                            <div class="mt-3">
+                                <a href="#!">
+                                    <h3>Call-to-action button</h3>
+                                    {{-- <h5 class="fs-17 lh-base">Read FAQs</h5> --}}
+                                </a>
+                                <p class="text-muted fs-15 mt-2">Learn More<br>&nbsp;</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END BLOG -->
+
+
     <!-- START PRODUCT -->
     <section class="section py-0">
         <div class="container">
@@ -97,7 +224,7 @@
             <div class="row mt-4">
                 <div class="col-lg-12">
                     <div class="row gallery-wrapper mt-2">
-                        <div class="element-item col-xxl-3 col-xl-4 col-sm-6 seller hot arrival"
+                        <div class="element-item col-xxl-4 col-xl-4 col-sm-6 seller hot arrival"
                             data-category="hot arrival">
                             <div class="card overflow-hidden">
                                 <div class="bg-warning-subtle rounded-top py-4">
@@ -124,7 +251,8 @@
                                                 data-bs-toggle="button">
                                                 <span class="icon-on"><i
                                                         class="mdi mdi-eye-outline align-bottom fs-15"></i></span>
-                                                <span class="icon-off"><i class="mdi mdi-eye align-bottom fs-15"></i></span>
+                                                <span class="icon-off"><i
+                                                        class="mdi mdi-eye align-bottom fs-15"></i></span>
                                             </button>
                                         </div>
                                     </div>
@@ -152,7 +280,7 @@
                         </div>
                         <!-- end col -->
 
-                        <div class="element-item col-xxl-3 col-xl-4 col-sm-6 seller hot" data-category="seller hot">
+                        <div class="element-item col-xxl-4 col-xl-4 col-sm-6 seller hot" data-category="seller hot">
                             <div class="card overflow-hidden">
                                 <div class="bg-info-subtle rounded-top py-4">
                                     <div class="gallery-product">
@@ -200,7 +328,7 @@
                         </div>
                         <!-- end col -->
 
-                        <div class="element-item col-xxl-3 col-xl-4 col-sm-6 trendy" data-category="trendy">
+                        <div class="element-item col-xxl-4 col-xl-4 col-sm-6 trendy" data-category="trendy">
                             <div class="card overflow-hidden">
                                 <div class="bg-danger-subtle rounded-top py-4">
                                     <div class="gallery-product">
@@ -252,181 +380,17 @@
                             </div>
                         </div>
                         <!-- end col -->
-
-                        <div class="element-item col-xxl-3 col-xl-4 col-sm-6 trendy" data-category="trendy">
-                            <div class="card overflow-hidden">
-                                <div class="bg-warning-subtle rounded-top py-4">
-                                    <div class="gallery-product">
-                                        <img src="{{ URL::asset('build/images/products/img-2.png') }}" alt=""
-                                            style="max-height: 215px;max-width: 100%;" class="mx-auto d-block">
-                                    </div>
-                                    <div class="gallery-product-actions">
-                                        <div class="mb-2">
-                                            <button type="button" class="btn btn-danger btn-sm custom-toggle"
-                                                data-bs-toggle="button">
-                                                <span class="icon-on"><i
-                                                        class="mdi mdi-heart-outline align-bottom fs-15"></i></span>
-                                                <span class="icon-off"><i
-                                                        class="mdi mdi-heart align-bottom fs-15"></i></span>
-                                            </button>
-                                        </div>
-
-                                        <div>
-                                            <button type="button" class="btn btn-success btn-sm custom-toggle"
-                                                data-bs-toggle="button">
-                                                <span class="icon-on"><i
-                                                        class="mdi mdi-eye-outline align-bottom fs-15"></i></span>
-                                                <span class="icon-off"><i
-                                                        class="mdi mdi-eye align-bottom fs-15"></i></span>
-                                            </button>
-                                        </div>
-                                    </div>
-                                    <div class="product-btn px-3">
-                                        <a href="shop-cart" class="btn btn-primary btn-sm w-75 add-btn"><i
-                                                class="mdi mdi-cart me-1"></i> Add to cart</a>
-                                    </div>
-                                </div>
-                                <div class="card-body">
-                                    <div>
-                                        <a href="product-details">
-                                            <h6 class="fs-15 lh-base text-truncate mb-0">Hoodie Newyorker Winter Clothes
-                                            </h6>
-                                        </a>
-                                        <div class="mt-3">
-                                            {{-- <span class="float-end">3.1 <i
-                                                    class="ri-star-half-fill text-warning align-bottom"></i></span> --}}
-                                            <h5 class="mb-0">$159.00</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end col -->
-
                     </div>
 
-                    <div class="mt-4 mb-4 text-center">
+                    {{-- <div class="mt-4 mb-4 text-center">
                         <a href="product-list-defualt" class="btn btn-soft-primary btn-hover">View All Products <i
                                 class="mdi mdi-arrow-right align-middle ms-1"></i></a>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
     </section>
     <!-- END PRODUCT -->
-
-    <section class="section bg-light bg-opacity-50 py-2">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <div class="text-left">
-                        <h3 class="mb-3">EXPERIENCE THE TECHNOLOGY</h3>
-                        <p class="text-muted fs-15">PrismaPro has it all</p>
-                        <p class="text-muted fs-15">
-                        <p>LED TV series from PrismaPro is crafted to perfection. We have in-house capabilities of designing
-                            LED TVs from 17″ to 84″ in HD to UHD 4K Smart Versions. Enjoy the magnificence of everything you
-                            watch with PrismaPro’s Full HD and Ultra HD LED TVs, equipped with high-end technology and smart
-                            features.<br>With 50+ years of experience in pioneering electronical technology, we have the
-                            power to move your hearts and minds with great innovations. We have a proven track record of
-                            serving high quality product requirements of our customers at an affordable cost.</p>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="card overflow-hidden">
-                        <img src="{{ URL::asset('build/images/small/img-4.jpg') }}" class="img-fluid" alt="">
-                    </div>
-                </div>
-            </div>
-
-            <div class="row mt-2">
-                <div class="col-lg-6">
-                    <div class="card overflow-hidden">
-                        <img src="{{ URL::asset('build/images/small/img-5.jpg') }}" class="img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="text-left">
-                        <h3 class="mb-3">ABOUT TREEVIEW COMPANY LIMITED</h3>
-                        <p class="text-muted fs-15">Ever growing with constant innovation</p>
-                        <p class="text-muted fs-15">
-                        <p>Located in Chonburi, the Company is one of Thailand’s leading TV
-                            manufacturer with cutting edge technology, including cleanroom and laser repair
-                            machine.<br>The Company has a large portfolio of clients, becoming Official Assembly Partner
-                            with Haier, Skyworth, Changhong, and Westinghouse and having strong distribution network
-                            with Tesco Lotus and Big C. The Company also has its own brand “PrismaPro,” which has been
-                            featured in the Magazine GM2000.</p>
-                        <p>Serving Since Last 18 Years…</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- START BLOG -->
-    <section class="section bg-light bg-opacity-50 py-2">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-7">
-                    <div class="text-center">
-                        <h3 class="mb-3">PRISMAPRO PRODUCT SERVICE AND SUPPORT</h3>
-                        <p class="text-muted fs-15">We are always happy to help you in the best manner we can.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row mt-2">
-                <div class="col-lg-4">
-                    <div class="card overflow-hidden">
-                        {{-- <img src="{{ URL::asset('build/images/small/1.jpg') }}" class="img-fluid" alt=""> --}}
-                        <div class="card-body">
-                            <div class="mt-3">
-                                <a href="#!">
-                                    <h3>Write to us</h3>
-                                    <h5 class="fs-17 lh-base">We are here to help</h5>
-                                </a>
-                                <p class="text-muted fs-15 mt-2">Feel free to write us at support@prismapro.com in case of
-                                    any queries. Our support team will be happy to solve your queries at earliest
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="card overflow-hidden">
-                        {{-- <img src="{{ URL::asset('build/images/small/2.jpg') }}" class="img-fluid" alt=""> --}}
-                        <div class="card-body">
-                            <div class="mt-3">
-                                <a href="#!">
-                                    <h3>Locate Service Center</h3>
-                                    <h5 class="fs-17 lh-base">We are nearby your vicinity</h5>
-                                </a>
-                                <p class="text-muted fs-15 mt-2">No more distance communication. You can search among
-                                    numerous service centers online near your vicinity and ask for relevant support.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="card overflow-hidden">
-                        {{-- <img src="{{ URL::asset('build/images/small/3.jpg') }}" class="img-fluid" alt=""> --}}
-                        <div class="card-body">
-                            <div class="mt-3">
-                                <a href="#!">
-                                    <h3>Know us better</h3>
-                                    <h5 class="fs-17 lh-base">Read FAQs</h5>
-                                </a>
-                                <p class="text-muted fs-15 mt-2">Do you have any questions about our products and services
-                                    or after sales support,<br> just explore the written FAQs and find your answer.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- END BLOG -->
 @endsection
 @section('scripts')
     <!-- isotope-layout -->

@@ -34,15 +34,30 @@
                     </a>
                 </li>
                 <li class="nav-item dropdown dropdown-hover dropdown-mega-full">
-                    <a class="nav-link" data-key="t-catalog" href="gallery" role="button" aria-expanded="false">
-                        GALLERY
-                    </a>
-                </li>
-                <li class="nav-item dropdown dropdown-hover dropdown-mega-full">
-                    <a class="nav-link" data-key="t-catalog" href="product-list-defualt" role="button" aria-expanded="false">
+                    <a class="nav-link" data-key="t-catalog" href="products2" role="button" aria-expanded="false">
                         PRODUCTS
                     </a>
                 </li>
+                <li class="nav-item dropdown dropdown-hover dropdown-mega-full">
+                    <a class="nav-link" data-key="t-catalog" href="services" role="button" aria-expanded="false">
+                        SERVICES
+                    </a>
+                </li>
+                <li class="nav-item dropdown dropdown-hover dropdown-mega-full">
+                    <a class="nav-link" data-key="t-catalog" href="customer" role="button" aria-expanded="false">
+                        CUSTOMER OVERVIEW
+                    </a>
+                </li>
+                <li class="nav-item dropdown dropdown-hover dropdown-mega-full">
+                    <a class="nav-link" data-key="t-catalog" href="global" role="button" aria-expanded="false">
+                        GLOBAL OPERATIONS
+                    </a>
+                </li>
+                {{-- <li class="nav-item dropdown dropdown-hover dropdown-mega-full">
+                    <a class="nav-link" data-key="t-catalog" href="gallery" role="button" aria-expanded="false">
+                        GALLERY
+                    </a>
+                </li> --}}
                 <li class="nav-item dropdown dropdown-hover dropdown-mega-full">
                     <a class="nav-link" data-key="t-catalog" href="contact-us" role="button" aria-expanded="false">
                         CONTACT

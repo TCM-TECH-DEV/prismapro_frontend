@@ -19,14 +19,87 @@
                                     </div>
                                 </div>
                                 <div class="ms-3 flex-grow-1">
+                                    <h5 class="fs-17 lh-base mb-2">USA</h5>
+                                    <p class="text-muted fs-14 mb-0">
+                                    <ul class="list-unstyled mb-0">
+                                        <li class="d-flex">
+                                            <div class="flex-grow-1">
+                                                <label for="directMessage" class="form-check-label fs-14">Address: Hayward, CA</label>
+                                            </div>
+                                        </li>
+                                        <li class="d-flex">
+                                            <div class="flex-grow-1">
+                                                <label for="directMessage" class="form-check-label fs-14">Phone/Whatsapp: +1 510 376 1875</label>
+                                            </div>
+                                        </li>
+                                        <li class="d-flex">
+                                            <div class="flex-grow-1">
+                                                <label for="directMessage" class="form-check-label fs-14">Email: info@prismapro.com</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                                <div class="avatar-sm flex-shrink-0">
+                                    <div class="avatar-title bg-primary-subtle text-primary rounded fs-17">
+                                        <i class="bi bi-geo-alt-fill"></i>
+                                    </div>
+                                </div>
+                                <div class="ms-3 flex-grow-1">
+                                    <h5 class="fs-17 lh-base mb-2">UAE</h5>
+                                    <p class="text-muted fs-14 mb-0">
+                                    <ul class="list-unstyled mb-0">
+                                        <li class="d-flex">
+                                            <div class="flex-grow-1">
+                                                <label for="directMessage" class="form-check-label fs-14">Address: Dubai Airport Free Zone, Dubai, UAE</label>
+                                            </div>
+                                        </li>
+                                        <li class="d-flex">
+                                            <div class="flex-grow-1">
+                                                <label for="directMessage" class="form-check-label fs-14">Phone/Whatsapp: +971 52 965 3428</label>
+                                            </div>
+                                        </li>
+                                        <li class="d-flex">
+                                            <div class="flex-grow-1">
+                                                <label for="directMessage" class="form-check-label fs-14">Email: info@cybo.com</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                                <div class="avatar-sm flex-shrink-0">
+                                    <div class="avatar-title bg-primary-subtle text-primary rounded fs-17">
+                                        <i class="bi bi-geo-alt-fill"></i>
+                                    </div>
+                                </div>
+                                <div class="ms-3 flex-grow-1">
                                     <h5 class="fs-17 lh-base mb-2">THAILAND</h5>
-                                    <p class="text-muted fs-14 mb-0">22nd Fl., CTI Tower 191/40 Ratchadapisek New Rd.,
-                                        Klongtoey, Bangkok 10110, Thailand</p>
+                                    <p class="text-muted fs-14 mb-0">
+                                    <ul class="list-unstyled mb-0">
+                                        <li class="d-flex">
+                                            <div class="flex-grow-1">
+                                                <label for="directMessage" class="form-check-label fs-14">CTI TOWER,
+                                                    Bangkok</label>
+                                            </div>
+                                        </li>
+                                        <li class="d-flex mt-2">
+                                            <div class="flex-grow-1">
+                                                <label class="form-check-label fs-14" for="desktopNotification">
+                                                    Phone: +66 9 3 896 4936
+                                                </label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card border border-opacity-25">
+                    {{-- <div class="card border border-opacity-25">
                         <div class="card-body p-4">
                             <div class="d-flex">
                                 <div class="avatar-sm flex-shrink-0">
@@ -86,7 +159,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
 
                 <div class="col-lg-8">
@@ -116,6 +189,14 @@
                                 </div>
                                 <div class="col-lg-12">
                                     <div class="form-group mt-3">
+                                        <label for="phonenumberInput" class="form-label">Phone Number<span
+                                                class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="phonenumberInput"
+                                            placeholder="Enter phone number..">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-group mt-3">
                                         <label for="subjectInput" class="form-label">Subject<span
                                                 class="text-danger">*</span></label>
                                         <input type="text" class="form-control" id="subjectInput"
@@ -132,8 +213,7 @@
                                 <div class="col-lg-12">
                                     <div class="text-end mt-4">
                                         <button type="submit" id="submit" name="submit" class="btn btn-primary">Send
-                                            Message <i
-                                                class="bi bi-arrow-right-short align-middle fs-16 ms-1"></i></button>
+                                            Message <i class="bi bi-arrow-right-short align-middle fs-16 ms-1"></i></button>
                                     </div>
                                 </div>
                             </div>

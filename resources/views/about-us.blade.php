@@ -13,28 +13,14 @@
         </div>
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-12">
-                    <h1 class="fw-bold mb-3">👋 About Us</h1>
-                    <p class="fs-16 text-muted mb-5 mb-lg-3">It gives us immeasurable joy to introduce ourselves as Treeview
-                        –
-                        a company poised to redefine the world of digital entertainment innovative products with finest
-                        quality and lowest cost. With blending expertise, experience and insightful research Treeview
-                        assures you of delivering high-quality lifestyle products that are value for money and still at the
-                        top among the world of technology.</p>
-                    <p class="fs-16 text-muted mb-5 mb-lg-3">At TREEVIEW, we strive to make sustainable products from process
-                        to product after-life. The performance of our integrated quality management is internationally
-                        accredited. Some of our current accreditations are</p>
-                    <p class="fs-16 text-muted mb-5 mb-lg-3">
-                    <ul>
-                        <li>ISO 9001 : 2008 FOR TOTAL QUALITY MANAGEMENT WHICH COVERS PROCESSES, PRODUCTS, AND PEOPLE</li>
-                        <li>ISO 14001 : 2005 FOR ENVIRONMENTAL MANAGEMENT SYSTEM</li>
-                    </ul>
-                    </p>
-                    <p class="fs-16 text-muted mb-5 mb-lg-3">A Comprehensive Quality Assurance Laboratory enable us to
-                        assess and control each production stage with the procedure needed to comply with the required QA
-                        standard.</p>
+                <div class="col-lg-6">
+                    <h1 class="fw-bold mb-3">Company History</h1>
+                    <p class="fs-16 text-muted mb-5 mb-lg-3">Prisma Pro (America), Inc. was founded in 1998 with the vision
+                        of providing high-quality products through television, catalog, and mail-order. Over the years, we
+                        have evolved to specialize in the wholesale buying and selling of used and refurbished iPhones. Our
+                        commitment to quality and customer satisfaction has been the cornerstone of our success.</p>
                 </div>
-                {{-- <div class="col-lg-6">
+                <div class="col-lg-6">
                     <div>
                         <div class="row align-items-center">
                             <div class="col-md-6">
@@ -53,7 +39,28 @@
                             </div>
                         </div>
                     </div>
-                </div> --}}
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div>
+                        <img src="{{ URL::asset('build/images/ecommerce/img-5.jpg') }}" alt=""
+                            class="img-fluid rounded">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="mt-4 mt-lg-0">
+                        <h2 class="lh-base fw-semibold mb-3">Mission</h2>
+                        <P class="text-muted fs-16">At Prisma Pro, we are committed to delivering premium quality
+                            refurbished iPhones while upholding the highest standards of environmental sustainability and
+                            social responsibility.</P>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -62,46 +69,57 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
-                    <div class="text-center mb-5">
-                        <h2 class="mb-3">FROM THAILAND FOR INDIA</h2>
+                    <div class="text-center mb-2">
+                        <h2 class="mb-3">Values</h2>
                     </div>
                 </div>
             </div>
             <div class="row gy-2">
-                <div class="col-xl-4 col-md-6">
+                <div class="col-xl-3 col-md-6">
                     <div class="team-box text-center">
                         <div class="mt-4 pt-1">
                             <a href="#!">
-                                <h5>HIGH END TECHNOLOGY</h5>
+                                <h5>Quality</h5>
                             </a>
                             <p class="text-muted mb-0">
-                                We commited to provide innovative products with finest quality and lowest cost. Be a world
-                                class LED TV manufacturer providing new technology and a competitive price.</p>
+                                We ensure that every device we sell meets stringent quality standards, providing our
+                                customers with reliable and durable products.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-6">
+                <div class="col-xl-3 col-md-6">
                     <div class="team-box text-center">
                         <div class="mt-4 pt-1">
                             <a href="#!">
-                                <h5>PRE ESTABLISHED SETUP & GLOBAL PRESENCE</h5>
+                                <h5>Sustainability</h5>
                             </a>
                             <p class="text-muted mb-0">
-                                The factory area is spreaded accross 44,800 SQM. We assure best quality products at your
-                                doorstep.</p>
+                                We are dedicated to minimizing our environmental impact by promoting the reuse and recycling
+                                of electronic devices.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-6">
+                <div class="col-xl-3 col-md-6">
                     <div class="team-box text-center">
                         <div class="mt-4 pt-1">
                             <a href="#!">
-                                <h5>EXTENDED CUSTOMER SUPPORT</h5>
+                                <h5>Customer Satisfaction</h5>
                             </a>
                             <p class="text-muted mb-0">
-                                We extend our support to provide our customers best-in-class customer support both before
-                                and after sales. Online shopping is now easy with us and we will be happy to deliver
-                                happiness at your doorstep.</p>
+                                We prioritize the satisfaction of our customers by offering exceptional products and
+                                services that exceed their expectations.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6">
+                    <div class="team-box text-center">
+                        <div class="mt-4 pt-1">
+                            <a href="#!">
+                                <h5>Social Responsibility</h5>
+                            </a>
+                            <p class="text-muted mb-0">
+                                We believe in giving back to the communities we serve and strive to make a positive impact
+                                through ethical business practices.</p>
                         </div>
                     </div>
                 </div>
