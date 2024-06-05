@@ -4,7 +4,7 @@
             <div class="col-sm-8">
                 <script>
                     document.write(new Date().getFullYear())
-                </script> © Treeview Company Limited. All Rights Reserved | Designed by TCM Technology
+                </script> © phone: +1 510 376 1875, Email: info@prismapro.com, Office: Hayward, CA 94544
             </div>
             <div class="col-sm-4">
                 <div class="text-sm-end d-none d-sm-block">
