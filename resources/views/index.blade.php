@@ -99,7 +99,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="card overflow-hidden">
-                        <img src="{{ URL::asset('build/images/small/img-4.jpg') }}" class="img-fluid" alt="">
+                        <img src="{{ URL::asset('build/images/small/1.jpg') }}" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>

@@ -30,80 +30,41 @@
         <div class="container">
             <!--end row-->
             <div class="row">
-                <div class="col-lg-2 col-md-3 col-sm-6">
+                <div class="col-lg-4 col-md-3 col-sm-6">
                     <div class="text-center">
-                        <img src="{{ URL::asset('build/images/products/img-6.png') }}" alt=""
+                        <img src="{{ URL::asset('build/images/products/1.png') }}" alt=""
                             class="img-fluid rounded-circle bg-warning-subtle border border-2 border-warning border-opacity-10 p-4">
                         <div class="mt-4">
                             <a href="#!">
-                                <h5 class="mb-2 fs-15">Clothes</h5>
+                                <h5 class="mb-2 fs-15">Iphone 13</h5>
                             </a>
-                            <p class="text-muted fs-12">96 Products</p>
+                            {{-- <p class="text-muted fs-12">96 Products</p> --}}
                         </div>
                     </div>
                 </div>
                 <!--end col-->
-                <div class="col-lg-2 col-md-3 col-sm-6">
+                <div class="col-lg-4 col-md-3 col-sm-6">
                     <div class="text-center">
-                        <img src="{{ URL::asset('build/images/products/img-20.png') }}" alt=""
+                        <img src="{{ URL::asset('build/images/products/2.png') }}" alt=""
                             class="img-fluid rounded-circle bg-dark-subtle border border-2 border-dark border-opacity-10 p-4">
                         <div class="mt-4">
                             <a href="#!">
-                                <h5 class="mb-2 fs-15">Electronics</h5>
+                                <h5 class="mb-2 fs-15">Iphone 12</h5>
                             </a>
-                            <p class="text-muted fs-12">25 Products</p>
+                            {{-- <p class="text-muted fs-12">25 Products</p> --}}
                         </div>
                     </div>
                 </div>
                 <!--end col-->
-                <div class="col-lg-2 col-md-3 col-sm-6">
+                <div class="col-lg-4 col-md-3 col-sm-6">
                     <div class="text-center">
-                        <img src="{{ URL::asset('build/images/products/img-18.png') }}" alt=""
+                        <img src="{{ URL::asset('build/images/products/3.png') }}" alt=""
                             class="img-fluid rounded-circle bg-warning-subtle border border-2 border-warning border-opacity-10 p-4">
                         <div class="mt-4">
                             <a href="#!">
-                                <h5 class="mb-2 fs-15">Cosmetic</h5>
+                                <h5 class="mb-2 fs-15">Iphone 11</h5>
                             </a>
-                            <p class="text-muted fs-12">10 Products</p>
-                        </div>
-                    </div>
-                </div>
-                <!--end col-->
-                <div class="col-lg-2 col-md-3 col-sm-6">
-                    <div class="text-center">
-                        <img src="{{ URL::asset('build/images/products/img-1.png') }}" alt=""
-                            class="img-fluid rounded-circle bg-danger-subtle border border-2 border-danger border-opacity-10 p-4">
-                        <div class="mt-4">
-                            <a href="#!">
-                                <h5 class="mb-2 fs-15">Bags</h5>
-                            </a>
-                            <p class="text-muted fs-12">58 Products</p>
-                        </div>
-                    </div>
-                </div>
-                <!--end col-->
-                <div class="col-lg-2 col-md-3 col-sm-6">
-                    <div class="text-center">
-                        <img src="{{ URL::asset('build/images/products/img-15.png') }}" alt=""
-                            class="img-fluid rounded-circle bg-info-subtle border border-2 border-info border-opacity-10 p-4">
-                        <div class="mt-4">
-                            <a href="#!">
-                                <h5 class="mb-2 fs-15">Handbags & Clutches</h5>
-                            </a>
-                            <p class="text-muted fs-12">64 Products</p>
-                        </div>
-                    </div>
-                </div>
-                <!--end col-->
-                <div class="col-lg-2 col-md-3 col-sm-6">
-                    <div class="text-center">
-                        <img src="{{ URL::asset('build/images/products/img-5.png') }}" alt=""
-                            class="img-fluid rounded-circle bg-danger-subtle border border-2 border-danger border-opacity-10 p-4">
-                        <div class="mt-4">
-                            <a href="#!">
-                                <h5 class="mb-2 fs-15">Footwear</h5>
-                            </a>
-                            <p class="text-muted fs-12">342 Products</p>
+                            {{-- <p class="text-muted fs-12">10 Products</p> --}}
                         </div>
                     </div>
                 </div>
@@ -156,9 +117,9 @@
                     <div class="card card-height-100">
                         <a href="product-list-defualt" class="insta-img categrory-box rounded-3">
                             <div class="categrory-content text-center">
-                                <span class="categrory-text text-white fs-18">Electronics</span>
+                                <span class="categrory-text text-white fs-18">Apple 240W USB-C Charge Cable (2 m)</span>
                             </div>
-                            <img src="{{ URL::asset('build/images/ecommerce/instagram/img-1.jpg') }}" class="img-fluid"
+                            <img src="{{ URL::asset('build/images/ecommerce/instagram/1.jpg') }}" class="img-fluid"
                                 alt="">
                         </a>
                     </div>
@@ -171,9 +132,9 @@
                             <div class="card mb-0">
                                 <a href="product-list-defualt" class="insta-img categrory-box rounded-3">
                                     <div class="categrory-content text-center">
-                                        <span class="categrory-text text-white fs-18">Cosmetics</span>
+                                        <span class="categrory-text text-white fs-18">Apple USB-C Digital AV Multiport Adapter</span>
                                     </div>
-                                    <img src="{{ URL::asset('build/images/ecommerce/instagram/img-2.jpg') }}"
+                                    <img src="{{ URL::asset('build/images/ecommerce/instagram/2.jpg') }}"
                                         class="w-100 object-fit-cover" alt="" style="max-height: 318px;">
                                 </a>
                             </div>
@@ -182,9 +143,9 @@
                             <div class="card mb-0">
                                 <a href="product-list-defualt" class="insta-img categrory-box rounded-3">
                                     <div class="categrory-content text-center">
-                                        <span class="categrory-text text-white fs-18">Handbags & Clutches</span>
+                                        <span class="categrory-text text-white fs-18">Apple 20W USB-C Power Adapter</span>
                                     </div>
-                                    <img src="{{ URL::asset('build/images/ecommerce/instagram/img-5.jpg') }}"
+                                    <img src="{{ URL::asset('build/images/ecommerce/instagram/3.jpg') }}"
                                         class="w-100 object-fit-cover" alt="" style="max-height: 318px;">
                                 </a>
                             </div>

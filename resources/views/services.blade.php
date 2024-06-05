@@ -34,10 +34,10 @@
                 <div class="col-lg-7">
                     <div class="card card-height-100">
                         <a href="product-list-defualt" class="insta-img categrory-box rounded-3">
-                            <div class="categrory-content text-center">
+                            {{-- <div class="categrory-content text-center">
                                 <span class="categrory-text text-white fs-18">Electronics</span>
-                            </div>
-                            <img src="{{ URL::asset('build/images/ecommerce/instagram/img-1.jpg') }}" class="img-fluid"
+                            </div> --}}
+                            <img src="{{ URL::asset('build/images/ecommerce/instagram/s-1.jpg') }}" class="img-fluid"
                                 alt="">
                         </a>
                     </div>
@@ -49,10 +49,10 @@
                         <div class="col-lg-12">
                             <div class="card mb-0">
                                 <a href="product-list-defualt" class="insta-img categrory-box rounded-3">
-                                    <div class="categrory-content text-center">
+                                    {{-- <div class="categrory-content text-center">
                                         <span class="categrory-text text-white fs-18">Cosmetics</span>
-                                    </div>
-                                    <img src="{{ URL::asset('build/images/ecommerce/instagram/img-2.jpg') }}"
+                                    </div> --}}
+                                    <img src="{{ URL::asset('build/images/ecommerce/instagram/s-2.jpg') }}"
                                         class="w-100 object-fit-cover" alt="" style="max-height: 318px;">
                                 </a>
                             </div>
@@ -60,10 +60,10 @@
                         <div class="col-lg-12">
                             <div class="card mb-0">
                                 <a href="product-list-defualt" class="insta-img categrory-box rounded-3">
-                                    <div class="categrory-content text-center">
+                                    {{-- <div class="categrory-content text-center">
                                         <span class="categrory-text text-white fs-18">Handbags & Clutches</span>
-                                    </div>
-                                    <img src="{{ URL::asset('build/images/ecommerce/instagram/img-5.jpg') }}"
+                                    </div> --}}
+                                    <img src="{{ URL::asset('build/images/ecommerce/instagram/s-3.jpg') }}"
                                         class="w-100 object-fit-cover" alt="" style="max-height: 318px;">
                                 </a>
                             </div>

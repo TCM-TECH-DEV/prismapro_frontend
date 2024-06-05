@@ -6,7 +6,7 @@
     <!-- extra css -->
 @endsection
 @section('content')
-    <section class="ecommerce-about">
+    <section class="ecommerce-about pb-2">
         <div class="effect d-none d-md-block">
             <div class="ecommerce-effect bg-primary"></div>
             <div class="ecommerce-effect bg-info"></div>
@@ -25,13 +25,13 @@
                         <div class="row align-items-center">
                             <div class="col-md-6">
                                 <div class="position-relative">
-                                    <img src="{{ URL::asset('build/images/ecommerce/img-4.jpg') }}" alt=""
+                                    <img src="{{ URL::asset('build/images/ecommerce/img-1.jpg') }}" alt=""
                                         class="img-fluid rounded">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="vstack gap-4">
-                                    <img src="{{ URL::asset('build/images/ecommerce/img-1.jpg') }}" alt=""
+                                    <img src="{{ URL::asset('build/images/ecommerce/img-2.jpg') }}" alt=""
                                         class="img-fluid rounded">
                                     <img src="{{ URL::asset('build/images/ecommerce/img-3.jpg') }}" alt=""
                                         class="img-fluid rounded">
@@ -44,17 +44,17 @@
         </div>
     </section>
 
-    <section class="section">
+    <section class="section pt-0 pb-2">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6">
+                {{-- <div class="col-lg-6">
                     <div>
                         <img src="{{ URL::asset('build/images/ecommerce/img-5.jpg') }}" alt=""
                             class="img-fluid rounded">
                     </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="mt-4 mt-lg-0">
+                </div> --}}
+                <div class="col-lg-12">
+                    <div class="mt-lg-0">
                         <h2 class="lh-base fw-semibold mb-3">Mission</h2>
                         <P class="text-muted fs-16">At Prisma Pro, we are committed to delivering premium quality
                             refurbished iPhones while upholding the highest standards of environmental sustainability and

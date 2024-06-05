@@ -26,7 +26,7 @@
                         <div class="row align-items-center">
                             <div class="col-md-6">
                                 <div class="position-relative">
-                                    <img src="{{ URL::asset('build/images/ecommerce/img-4.jpg') }}" alt=""
+                                    <img src="{{ URL::asset('build/images/ecommerce/c-1.jpg') }}" alt=""
                                         class="img-fluid rounded">
                                 </div>
                             </div>
@@ -40,7 +40,7 @@
                         <div class="row align-items-center">
                             <div class="col-md-6">
                                 <div class="position-relative">
-                                    <img src="{{ URL::asset('build/images/ecommerce/img-4.jpg') }}" alt=""
+                                    <img src="{{ URL::asset('build/images/ecommerce/c-2.jpg') }}" alt=""
                                         class="img-fluid rounded">
                                 </div>
                             </div>
@@ -70,7 +70,7 @@
                         <div class="row align-items-center">
                             <div class="col-md-6">
                                 <div class="position-relative">
-                                    <img src="{{ URL::asset('build/images/ecommerce/img-4.jpg') }}" alt=""
+                                    <img src="{{ URL::asset('build/images/ecommerce/c-3.jpg') }}" alt=""
                                         class="img-fluid rounded">
                                 </div>
                             </div>

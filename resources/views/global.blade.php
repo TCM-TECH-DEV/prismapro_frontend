@@ -4,13 +4,22 @@
 @endsection
 @section('css')
     <!-- extra css -->
+    <style>
+        .bg-img {
+            background-image: url("{{ URL::asset('build/images/ecommerce/bg-img.jpg') }}");
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+        }
+    </style>
 @endsection
 @section('content')
-    <section class="term-condition bg-primary">
+    <section class="term-condition bg-img">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="text-center">
+                        <img src="{{ URL::asset('build/images/ecommerce/logo-apple.png') }}" alt=""
+                            class="img-fluid rounded">
                         <h1 class="text-white mb-2">GLOBAL OPERATIONS</h1>
                     </div>
                 </div>
