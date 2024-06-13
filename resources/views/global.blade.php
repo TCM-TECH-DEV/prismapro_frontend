@@ -18,8 +18,8 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="text-center">
-                        <img src="{{ URL::asset('build/images/ecommerce/logo-apple.png') }}" alt=""
-                            class="img-fluid rounded">
+                        {{-- <img src="{{ URL::asset('build/images/ecommerce/logo-apple.png') }}" alt=""
+                            class="img-fluid rounded"> --}}
                         <h1 class="text-white mb-2">GLOBAL OPERATIONS</h1>
                     </div>
                 </div>

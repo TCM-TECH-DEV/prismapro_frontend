@@ -24,17 +24,26 @@
                                     <ul class="list-unstyled mb-0">
                                         <li class="d-flex">
                                             <div class="flex-grow-1">
-                                                <label for="directMessage" class="form-check-label fs-14">Address: Hayward, CA</label>
+                                                <label for="directMessage" class="form-check-label fs-14">SUTTIKUJ (CINDY)
+                                                    CHITPEDEKORN</label>
                                             </div>
                                         </li>
                                         <li class="d-flex">
                                             <div class="flex-grow-1">
-                                                <label for="directMessage" class="form-check-label fs-14">Phone/Whatsapp: +1 510 376 1875</label>
+                                                <label for="directMessage" class="form-check-label fs-14">Address: 224
+                                                    Bridgehead Ln Hayward, CA 94544</label>
                                             </div>
                                         </li>
                                         <li class="d-flex">
                                             <div class="flex-grow-1">
-                                                <label for="directMessage" class="form-check-label fs-14">Email: info@prismapro.com</label>
+                                                <label for="directMessage" class="form-check-label fs-14">Mobile/Whatsapp:
+                                                    +510 939 6365</label>
+                                            </div>
+                                        </li>
+                                        <li class="d-flex">
+                                            <div class="flex-grow-1">
+                                                <label for="directMessage" class="form-check-label fs-14">Email:
+                                                    prismaproinc@gmail.com</label>
                                             </div>
                                         </li>
                                     </ul>
@@ -53,17 +62,20 @@
                                     <ul class="list-unstyled mb-0">
                                         <li class="d-flex">
                                             <div class="flex-grow-1">
-                                                <label for="directMessage" class="form-check-label fs-14">Address: Dubai Airport Free Zone, Dubai, UAE</label>
+                                                <label for="directMessage" class="form-check-label fs-14">Address: Dubai
+                                                    Airport Free Zone, Dubai, UAE</label>
                                             </div>
                                         </li>
                                         <li class="d-flex">
                                             <div class="flex-grow-1">
-                                                <label for="directMessage" class="form-check-label fs-14">Phone/Whatsapp: +971 52 965 3428</label>
+                                                <label for="directMessage" class="form-check-label fs-14">Phone/Whatsapp:
+                                                    +971 52 965 3428</label>
                                             </div>
                                         </li>
                                         <li class="d-flex">
                                             <div class="flex-grow-1">
-                                                <label for="directMessage" class="form-check-label fs-14">Email: info@cybo.com</label>
+                                                <label for="directMessage" class="form-check-label fs-14">Email:
+                                                    info@cybo.com</label>
                                             </div>
                                         </li>
                                     </ul>
@@ -212,8 +224,10 @@
                                 </div>
                                 <div class="col-lg-12">
                                     <div class="text-end mt-4">
-                                        <button type="submit" id="submit" name="submit" class="btn btn-primary">Send
-                                            Message <i class="bi bi-arrow-right-short align-middle fs-16 ms-1"></i></button>
+                                        <button type="submit" id="submit" name="submit"
+                                            class="btn btn-primary">Send
+                                            Message <i
+                                                class="bi bi-arrow-right-short align-middle fs-16 ms-1"></i></button>
                                     </div>
                                 </div>
                             </div>
