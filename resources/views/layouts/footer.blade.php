@@ -7,7 +7,7 @@
                 </script> © Mobile/Whatsapp: +510 939 6365, Email: prismaproinc@gmail.com, Office: Hayward, CA 94544
             </div>
             <div class="col-sm-4">
-                <div class="text-sm-end d-none d-sm-block">
+                {{-- <div class="text-sm-end d-none d-sm-block">
                     <ul class="list-inline mb-0">
                         <li class="list-inline-item">
                             <a class="nav-link" data-key="t-catalog" href="/" role="button" aria-expanded="false">
@@ -29,7 +29,7 @@
                         <li class="list-inline-item">
                             <a class="nav-link" data-key="t-catalog" href="services" role="button"
                                 aria-expanded="false">
-                                PRODUCTS
+                                SERVICES
                             </a>
                         </li>
                         <li class="list-inline-item">
@@ -51,7 +51,7 @@
                             </a>
                         </li>
                     </ul>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>
