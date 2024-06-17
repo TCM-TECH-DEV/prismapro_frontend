@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>@yield('title') | Toner - eCommerce + Admin HTML Template Build with HTML, React, Laravel, Nodejs</title>
+    <title>Prisma Pro (America), Inc.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="eCommerce + Admin HTML Template" name="description">
     <meta content="Themesbrand" name="author">
@@ -17,7 +17,7 @@
 <body>
 
     @yield('content')
-    
+
 </body>
 
 </html>
