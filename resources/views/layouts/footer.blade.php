@@ -4,7 +4,7 @@
             <div class="col-sm-8">
                 <script>
                     document.write(new Date().getFullYear())
-                </script> © phone: +1 510 376 1875, Email: info@prismapro.com, Office: Hayward, CA 94544
+                </script> © Mobile/Whatsapp: +510 939 6365, Email: prismaproinc@gmail.com, Office: Hayward, CA 94544
             </div>
             <div class="col-sm-4">
                 <div class="text-sm-end d-none d-sm-block">
