@@ -21,15 +21,27 @@
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a class="nav-link" data-key="t-catalog" href="gallery" role="button"
+                            <a class="nav-link" data-key="t-catalog" href="products2" role="button"
                                 aria-expanded="false">
-                                GALLERY
+                                PRODUCTS
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a class="nav-link" data-key="t-catalog" href="product-list-defualt" role="button"
+                            <a class="nav-link" data-key="t-catalog" href="services" role="button"
                                 aria-expanded="false">
                                 PRODUCTS
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="nav-link" data-key="t-catalog" href="customer" role="button"
+                                aria-expanded="false">
+                                CUSTOMER OVERVIEW
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="nav-link" data-key="t-catalog" href="global" role="button"
+                                aria-expanded="false">
+                                GLOBAL OPERATIONS
                             </a>
                         </li>
                         <li class="list-inline-item">
